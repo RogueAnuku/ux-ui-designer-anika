@@ -211,7 +211,7 @@ iframe {
        
 /* Style for the About Me columns */
 .row.about-me {
-    padding-top: 32%;
+    padding-top: 55%;
     justify-content: center;
 }
 .row.about-me img{
@@ -219,9 +219,9 @@ iframe {
 }
 
 .row.resume-section {
+    margin-top: -700px;
     padding-bottom: 8%;
     justify-content: center;
- 
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -232,9 +232,8 @@ iframe {
 
 
 
-
 .gem-section {
-    margin-top: -1581px;
+    margin-top: -1654px;
     position: relative;
     z-index: -1;
 }
@@ -322,6 +321,7 @@ iframe {
 }
 .h2, h2 {
     font-size: 2rem;
+    color: #F23580;
 }
 .collapse.navbar-collapse.ml-auto {
     justify-content: right;

@@ -108,22 +108,24 @@ img {
         position: sticky;
     }
 
-.project-header {
-    font-family: 'Verdana Pro', sans-serif;
-    margin-top: -199px;
-    padding-bottom: 20px;
-    font-weight: 400;
-    font-size: 1.6rem;
-    text-align: center;
-    color: #F23580;
-}
-.project-title {
-    font-weight: 300;
-    font-size: 1rem;
-    text-align: center;
-    color: #F23580;
-    margin-top: -710px;
-}
+    .project-header {
+        margin-top: -60px;
+        padding-bottom: 16%;
+        font-family: 'Verdana Pro', sans-serif;
+        /* margin-top: -143px; */
+        /* padding-bottom: 20px; */
+        font-weight: 400;
+        font-size: 1.6rem;
+        text-align: center;
+        color: #F23580;
+    }
+    .project-title {
+        font-weight: 400;
+        font-size: 1.3rem;
+        text-align: center;
+        color: #F23580;
+        margin-top: -710px;
+    }
 .project-text {
     font-weight: 200;
     padding-right: 2%;
@@ -142,6 +144,9 @@ img {
 }
 
 
+.border-image-container img  {
+    margin-top: -60px;
+}
 iframe {
     /* padding-top: 5%; */
     justify-content: center;
@@ -156,7 +161,7 @@ iframe {
 }
 
     .resume-title {
-     
+     padding-top: 16%;
             font-size: 2rem;
             color:#F23580;
             text-align: center;
@@ -205,10 +210,9 @@ iframe {
         /* Style for the "About Me" and "Resume" sections */
        
 /* Style for the About Me columns */
-
 .row.about-me {
+    padding-top: 32%;
     justify-content: center;
-  
 }
 .row.about-me img{
     max-width: 45%;
@@ -217,7 +221,7 @@ iframe {
 .row.resume-section {
     padding-bottom: 8%;
     justify-content: center;
-    margin-top: -776px;
+ 
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -281,13 +285,14 @@ iframe {
     width: 70%;
 }
 .container2 {
-    max-width: 100%;
+    /* padding-bottom: 16%; */
+    border-radius: 16px;
+    max-width: 93%;
     margin: 0 auto;
     padding: 30px;
-    background-color: #f2f2f2; /* Customize background color */
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Customize box shadow */
+    background-color: #f2f2f2;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
-
 /* Styles for form elements within .container2 */
 .container2 .form-group label {
     font-weight: bold;

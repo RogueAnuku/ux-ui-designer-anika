@@ -1,0 +1,502 @@
+body {
+    background-color: black;
+}
+
+.navbar {
+    box-shadow: -1px 1px 14px 0px #00bFF0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar-name {
+    color: #F23580;
+}
+.bg-dark {
+    background-color: #000!important;
+}
+.menu-icon-img img {
+    width: 50px;
+}
+.menu-icon-img img {
+    transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+.menu-icon-img:hover img {
+    transform: scale(1.1); /* Increase the size on hover */
+}
+.jumbotron-content {
+    position: relative; /* Position the container as a reference for absolute positioning */
+}
+.row-1 {
+    margin-top: -130px;
+}
+
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    height: auto; /* Maintain the image's aspect ratio */
+}
+.jumbotron {
+    background-color: #000;
+}
+
+.jumbotron-overlay {
+    position: absolute;
+    top: 56px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 20px;
+}
+.jumbotron-title {
+    font-weight: 300;
+    font-family: 'Verdana Pro', sans-serif;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.jumbotron-text {
+    
+    color: #00BFF0;
+    font-size: 1.1rem;
+}
+.jumbotron-content img {
+    margin-top: -50px;
+    width: 100%;
+    box-shadow: -1px 11px 212px 0px #00bFF0;
+}
+.jumbotron-content {
+    margin-top: 54px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Your existing jumbotron styles remain the same */
+
+/* Style for the content inside the glass border */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100%; */
+}
+.zoom-on-hover {
+    transition: transform 0.2s ease-in-out; /* Smooth transition on hover */
+}
+
+.zoom-on-hover:hover {
+    transform: scale(1.1); /* Increase the size on hover (zoom) */
+}
+.row-1 {
+    margin-top: -130px;
+    position: relative;
+    z-index: 2;
+}
+.row {
+   
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+}
+.border-image-container {
+   
+        position: sticky;
+    }
+
+.project-header {
+    font-family: 'Verdana Pro', sans-serif;
+    margin-top: -199px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #F23580;
+}
+.project-title {
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+    color: #F23580;
+    margin-top: -710px;
+}
+.project-text {
+    font-weight: 200;
+    padding-right: 2%;
+    margin-left: 6px;
+    font-size: 1rem;
+    padding: 4%;
+    color: white;
+    /* padding: 20px; */
+    margin-top: 2%;
+    position: absolute;
+    /* top: -41px; */
+    /* left: 20px; */
+}
+.border-image-container {
+    position: relative;
+}
+
+
+iframe {
+    /* padding-top: 5%; */
+    justify-content: center;
+    /* margin-right: auto; */
+    margin-left: 18px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 94%;
+    height: 1059px;
+    margin-top: -1338px;
+}
+
+    .resume-title {
+     
+            font-size: 2rem;
+            color:#F23580;
+            text-align: center;
+       
+    }
+    .row.resume-section {
+        padding-bottom: 8%;
+        justify-content: center;
+        /* margin-top: -776px; */
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    
+    .btn {
+        justify-content: center;
+        /* margin-left: auto; */
+        margin-left: 133px;
+        margin-top: 547px;
+        color: #fff;
+        background-color: #f23580;
+        border-color: transparent;
+        border: 1px solid transparent;
+        padding: 0.375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.;
+        border-radius: 5.25rem;
+        m: ;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+   
+    .mb-4, .my-4 {
+        padding-top: 10%;
+        margin-top: 129px;
+        margin-bottom: 1.5rem!important;
+    }
+  
+        .gem-section {
+           position: relative;
+        }
+        
+        /* Style for the "About Me" and "Resume" sections */
+       
+/* Style for the About Me columns */
+
+.row.about-me {
+    justify-content: center;
+  
+}
+.row.about-me img{
+    max-width: 45%;
+}
+
+.row.resume-section {
+    padding-bottom: 8%;
+    justify-content: center;
+    margin-top: -776px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+.gem-section {
+    margin-top: -1581px;
+    position: relative;
+    z-index: -1;
+}
+
+/* Target the left side of the row */
+.row > .col-md-6:first-child.about-me-col {
+    /* Add your styles for the left side here */
+   
+    color: white;
+    /* Add any other specific styles for the left side */
+}
+/* Target the right side of the row */
+.row > .col-md-6:last-child.about-me-col {
+    /* Add your styles for the right side here */
+    background-color: white;
+    color: black;
+   
+    max-width: 55%;
+    /* Add any other specific styles for the right side */
+}
+
+
+.about-me-col .about-section-title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-top: 20px;
+    color: #F23580;
+    text-align: center;
+}
+
+.about-me-col .about-section-text {
+    font-size: 1rem;
+    margin-top: -11px;
+}
+
+
+.input-group.mb-3 {
+    width: 70%;
+}
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 70%;
+}
+.container2 {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f2f2f2; /* Customize background color */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Customize box shadow */
+}
+
+/* Styles for form elements within .container2 */
+.container2 .form-group label {
+    font-weight: bold;
+    color: #333;
+}
+
+.container2 .form-group input[type="text"],
+.container2 .form-group input[type="email"],
+.container2 .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.container2 .form-group textarea {
+    resize: vertical;
+}
+
+.container2 button {
+    border-radius: 5.25rem;
+    background-color: #F23580;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.h2, h2 {
+    font-size: 2rem;
+}
+.collapse.navbar-collapse.ml-auto {
+    justify-content: right;
+}
+/* Style for the active link */
+.navbar-dark .navbar-nav .nav-item.active .nav-link {
+    color: #F23580; /* Change this to the desired color */
+}
+.container-fluid-1  {
+    width: 100%;
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Adjust the margin-top to create space between content and footer if needed */
+.wrapper .footer {
+    margin-top: 10px;
+}
+
+/* Your existing footer styles */
+.footer {
+ 
+    box-shadow: -1px 1px 14px 0px #00BFF0;
+    width: 100%;
+    background-color: #000;
+}
+
+
+/* Add this CSS to your existing stylesheet */
+
+#footer-image {
+    width: 170px;
+   
+}
+
+.footer-text {
+    font-size: 12px;
+    color: #495057;
+}
+/* Style for the footer links */
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #f23580;
+    transition: text-decoration 0.3s; /* Add a smooth transition effect */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+    color: #00BFF0; /* Change the link color on hover */
+}
+.container-fluid footer img {
+    margin-left: 37%;
+    justify-content: center;
+    width: 25%;
+    margin-top: -63px;
+}
+
+@media screen and (min-width: 1024px){
+ 
+    .project-header {
+        font-family: 'Verdana Pro', sans-serif;
+        margin-top: -173px;
+        padding-bottom: 20px;
+        font-weight: 400;
+        font-size: 1.6rem;
+        text-align: center;
+        color: #F23580;
+    }
+    .project-title {
+        font-weight: 400;
+        font-size: 1.3rem;
+        text-align: center;
+        color: #F23580;
+        margin-top: -961px;
+    }
+        .mb-4, .my-4 {
+            padding-top: 34%;
+            /* margin-top: 129px; */
+            margin-bottom: 1.5rem!important;
+        }
+        .row.about-me {
+            padding-top: 300px;
+            justify-content: center;
+            /* margin-top: 218px; */
+        }
+        .gem-section {
+            margin-top: -1979px;
+            position: relative;
+            z-index: -1;
+        }
+        .row.resume-section {
+            padding-bottom: 8%;
+            justify-content: center;
+            margin-top: -1187px;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .container2 {
+            border-radius: 16px;
+            padding-bottom: 200px;
+            max-width: 87%;
+            margin: 0 auto;
+            padding: 44px;
+            background-color: #f2f2f2;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+        }
+        .row.footer {
+            padding: 1rem;
+        }
+        .jumbotron-title {
+            font-weight: 300;
+            font-family: 'Verdana Pro', sans-serif;
+            font-size: 2rem;
+            /* font-weight: bold; */
+            color: white;
+        }
+        
+        .btn {
+            justify-content: center;
+            /* margin-left: auto; */
+            margin-left: 197px;
+            margin-top: 827px;
+            color: #fff;
+            background-color: #f23580;
+            border-color: transparent;
+            border: 1px solid transparent;
+            padding: 0.375rem .75rem;
+            font-size: 1rem;
+            line-height: 1.;
+            border-radius: 5.25rem;
+            m: ;
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+        .project-text {
+            font-weight: 200;
+            padding-right: 2%;
+            margin-left: 6px;
+            font-size: 1rem;
+            padding: 4%;
+            color: white;
+            /* padding: 20px; */
+            margin-top: 2%;
+            position: absolute;
+            /* top: -41px; */
+            /* left: 20px; */
+        }
+        .container2 {
+            border-radius: 16px;
+            max-width: 94%;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #f2f2f2;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+        }
+        .row-1 img{
+            width: 110%;
+        }
+    
+        }
+    
+

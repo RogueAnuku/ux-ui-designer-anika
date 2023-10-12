@@ -6,6 +6,7 @@
      <link rel="stylesheet" type="text/css" href="./index.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
      <script src="script.js"></script> <!-- Include your JavaScript file here -->
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link
@@ -14,17 +15,35 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
      <script>
+        // Your smooth scroll script
         $(document).ready(function () {
-          // Smooth scroll and mobile navigation toggle scripts
-          // ... (Your existing scripts)
+            // Smooth scroll when clicking on the navigation links
+            $('a.nav-link[href*="#"]').not('[href="#"]').click(function (event) {
+                if (
+                    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+                    location.hostname == this.hostname
+                ) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        event.preventDefault();
+                        $('html, body').animate(
+                            {
+                                scrollTop: target.offset().top
+                            },
+                            1000 // You can adjust the animation speed here (in milliseconds)
+                        );
+                    }
+                }
+            });
         });
-      </script>
-    </head>
+     </script>
+</head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#">
             <img src="./Image/Logo.gif" width="75px">
-            <span class="navbar-name">Anika McPhee</span>
+            <span class="navbar-name">ANIKA MCPHEE</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <div class="menu-icon-img"><img src="./Image/menu.png"> </div>
@@ -32,27 +51,33 @@
         <div class="collapse navbar-collapse ml-auto" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="https://rogueanuku.github.io/Homework-20-new/">Home</a>
+                    <a class="nav-link" href="#Home">Home</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#Resume">Resume</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Resume</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
+                
             </ul>
         </div>
     </nav>
     <div class="wrapper">   
-        <div class="jumbotron jumbotron-fluid">
+       <div class="jumbotron jumbotron-fluid" id="Home">
+            <!-- Your jumbotron content here -->
+        </div>
+        
             <div class="container-fluid" style="padding: 0; margin-right: auto; margin-left: auto;">
-                <div class="jumbotron-content">
+                <div class="jumbotron-content" id="Home">
                     <img src="./Image/hero.jpg">
                         <div class="jumbotron-overlay">
                         <div class="jumbotron-title">Hi, I'm Anika</div>
@@ -66,9 +91,10 @@
         </div>
        
         </div>  
-        <div class="project-header">
-             Projects
+        <div class="project-header" id="projects">
+            Projects
         </div>
+        
     </div> 
 
     <div class="row">
@@ -80,6 +106,7 @@
                     <div class="project-text">
                         The project proposes the redesign of Roger Neilson House's webpage, a palliative care facility in Ottawa. User research, including interviews and surveys, was conducted to gather insights. Competitor analysis highlighted strengths in accessibility standards, but weaknesses were found in certain websites. Heuristic evaluation identified issues with images, contact information, page length, and font size. User perspectives, actions, feelings, and pain points were considered. The problem statement focused on saving user information to streamline the volunteer application process. Sketches were created, and the site map was adjusted to include an 'About Us' section. A UI style guide was developed based on user preferences. Next steps included incorporating features, adding a contact form, and improving accessibility.
                     </div>
+                   
                     <button class="btn btn-primary">Click Me</button>
                 </div>
             </div>
@@ -129,7 +156,7 @@
     
         
 
-    <div class="row about-me zoom-on-hover">
+    <div class="row about-me zoom-on-hover" id="About">
         
             <img src="./Image/ANIKA.png" >
         
@@ -142,7 +169,8 @@
     <div class="gem-section">
         <img src="./Image/gem.svg">
     </div>
-    <div class="row resume-section">
+
+    <div class="row resume-section" id="Resume">
         <div class="glass-border d-flex">
             <div class="border-image-container">
                 <div class="resume-title">Resume</div>
@@ -155,14 +183,14 @@
     </div>
     
            
-    <div class="container2">
+    <div class="container2" id="contact">
         <h2>Contact Me</h2>
         <div class="text-field">                  
         <p>  Whether you have questions about my work, feedback,  or just want to say hello, feel free to get in touch with me by filling out the form below.</p>
       
             
         </div>
-        <form action="your-server-script.php" method="POST">
+        <form action="sendemail.php" method="post">
             <div class="form-group">
                 <label for="first-name">First Name:</label>
                 <input type="text" id="first-name" name="first_name" required>

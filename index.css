@@ -418,11 +418,10 @@ html, body {
         color: #F23580;
         margin-top: -961px;
     }
-        .mb-4, .my-4 {
-         
-            /* margin-top: 129px; */
-            margin-bottom: 1.5rem!important;
-        }
+    .mb-4, .my-4 {
+      
+        margin-bottom: 1.5rem!important;
+    }
         .row.about-me {
             padding-top: 300px;
             justify-content: center;
@@ -509,8 +508,13 @@ html, body {
             position: relative;
             z-index: 3;
         }
-    
+        .col-md-6 .zoom-on-hover {
+       
+    padding-bottom: 10%;
+    }
         }
+    
+        
         @media screen and (min-width: 1200px) {
             body {
               background-color: black;
@@ -526,6 +530,11 @@ html, body {
                 margin-top: -154px;
                 width: 100%;
                 box-shadow: -1px 11px 212px 0px #00bFF0;
+            }
+            .jumbotron-content {
+                margin-top: -26px;
+                position: relative;
+                z-index: 1;
             }
        
           }

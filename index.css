@@ -1,5 +1,11 @@
 
-   
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .menu-icon-img img {
+        width: 46px;
+    }
+    .bg-dark {
+        background-color: #000 !important;
+    }
 body {
     background-color: black;
 }
@@ -13,6 +19,8 @@ body {
     z-index: 1030;
 }
 .navbar-name {
+    font-size: 1rem;
+
     color: #F23580;
 }
 .navbar-dark .navbar-toggler {
@@ -41,27 +49,30 @@ body {
 .menu-icon-img:hover img {
     transform: scale(1.1); /* Increase the size on hover */
 }
+.wrapper {
+  
+        margin-top: 20%;
+    }
+
 .jumbotron-content {
     position: relative; /* Position the container as a reference for absolute positioning */
 }
-.row-1 {
-    margin-top: -130px;
-}
+
 
 img {
     max-width: 100%; /* Ensure the image doesn't exceed its container width */
     height: auto; /* Maintain the image's aspect ratio */
 }
 .jumbotron {
-    margin-top: -100px;
+    /* margin-top: -100px; */
     background-color: #000;
 }
 .jumbotron-overlay {
     width: 100%;
     position: absolute;
-    top: 19%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: -64px;
+    /* left: 50%; */
+    /* transform: translate(-50%, -106%); */
     text-align: center;
     color: white;
     /* background-color: rgba(0, 0, 0, 0.5); */
@@ -80,16 +91,14 @@ img {
     font-size: 1.1rem;
 }
 .jumbotron-content img {
-    margin-top: -50px;
+    
     width: 100%;
-    box-shadow: -1px 11px 212px 0px #00bFF0;
+   
 }
 .jumbotron-content {
-    margin-top: 54px;
-    position: relative;
+      position: relative;
     z-index: 1;
 }
-
 /* Your existing jumbotron styles remain the same */
 
 /* Style for the content inside the glass border */
@@ -106,7 +115,7 @@ img {
     transform: scale(1.1); /* Increase the size on hover (zoom) */
 }
 .row-1 {
-    margin-top: -126px;
+    margin-top: -39px;
     position: relative;
     z-index: 3;
 }
@@ -125,8 +134,8 @@ img {
     }
 
     .project-header {
-        margin-top: -60px;
-        padding-bottom: 16%;
+        /* margin-top: -60px; */
+        padding-bottom: 8%;
         font-family: 'Verdana Pro', sans-serif;
         /* margin-top: -143px; */
         /* padding-bottom: 20px; */
@@ -136,67 +145,57 @@ img {
         color: #F23580;
     }
     .project-title {
-        font-weight: 400;
-        font-size: 1.3rem;
+        font-weight: 500;
         text-align: center;
         color: #F23580;
-        margin-top: -710px;
     }
-.project-text {
-    font-weight: 200;
-    padding-right: 2%;
-    margin-left: 6px;
-    font-size: 1rem;
-    padding: 4%;
-    color: white;
-    /* padding: 20px; */
-    margin-top: 2%;
-    position: absolute;
-    /* top: -41px; */
-    /* left: 20px; */
-}
+    .project-text {
+        margin-right: auto;
+        font-weight: 200;
+        padding-right: 2%;
+        margin-left: auto;
+        font-size: .90rem;
+        padding: 7%;
+        color: white;
+        /* padding: 20px; */
+        /* margin-top: 2%; */
+        position: absolute;
+        top: 28px;
+        /* left: 20px; */
+    }
 .border-image-container {
     position: relative;
 }
 
-
+.glass-border.d-flex {
+    margin-top: -32px;
+}
 iframe {
-    /* padding-top: 5%; */
-    justify-content: center;
-    /* margin-right: auto; */
-    margin-left: 18px;
+
+    padding-top: 17%;
+    
     position: absolute;
-    top: 100%;
-    left: 0;
-    width: 94%;
-    height: 1059px;
-    margin-top: -1338px;
+    left: 5%;
+    width: 90%;
+    /* height: 1059px; */
 }
 
     .resume-title {
-     padding-top: 16%;
+
             font-size: 2rem;
             color:#F23580;
             text-align: center;
        
     }
-    .row.resume-section {
-        margin-top: -922px;
-        padding-bottom: 8%;
-        justify-content: center;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        margin-right: auto;
-        margin-left: auto;
-    }
+ 
     
     .btn {
+        margin-top: -90px;
+        /* margin-right: auto; */
         justify-content: center;
         /* margin-left: auto; */
-        margin-left: 133px;
-        margin-top: 547px;
+        /* margin-left: 133px; */
+        /* margin-top: 547px; */
         color: #fff;
         background-color: #f23580;
         border-color: transparent;
@@ -208,30 +207,32 @@ iframe {
         m: ;
         transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     }
-   
+     .col-6 {
+        padding-bottom: 8%;
+        padding-top: 2%;
+        /* padding: 2%; */
+        position: relative;
+        width: 100%;
+      
+    }
     .mb-4, .my-4 {
-       padding-top: 22%;
+     
         margin-bottom: 1.5rem!important;
     }
   
-        .gem-section {
-           position: relative;
-        }
-        
-        /* Style for the "About Me" and "Resume" sections */
        
-/* Style for the About Me columns */
-.row.about-me {
-    padding-top: 22%;
-    justify-content: center;
-    /* margin-top: -339px; */
+
+
+.resume-image {
+    display: none; /* Hide the image for small screens */
 }
-.row.about-me img{
-    max-width: 45%;
+/* Add this rule to make the remaining column take full width */
+.remaining-column {
+    width: 100%;
 }
 
 .row.resume-section {
-    margin-top: -700px;
+   margin-top: -345px;
     padding-bottom: 8%;
     justify-content: center;
     display: -ms-flexbox;
@@ -245,7 +246,7 @@ iframe {
 
 
 .gem-section {
-    margin-top: -1654px;
+    margin-top: -511px;
     position: relative;
     z-index: -1;
 }
@@ -259,25 +260,29 @@ iframe {
 }
 /* Target the right side of the row */
 .row > .col-md-6:last-child.about-me-col {
-    /* Add your styles for the right side here */
+    padding: 4%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
     background-color: white;
     color: black;
-   
-    max-width: 55%;
+    border-radius: 16px;
+} 
     /* Add any other specific styles for the right side */
 }
 
 
 .about-me-col .about-section-title {
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     margin-top: 20px;
     color: #F23580;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .about-me-col .about-section-text {
-    font-size: 1rem;
+    font-size: .80rem;
     margin-top: -11px;
 }
 
@@ -296,18 +301,27 @@ iframe {
     width: 70%;
 }
 .container2 {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 155%;
     /* padding-bottom: 16%; */
     border-radius: 16px;
     max-width: 93%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 30px;
-    background-color: #f2f2f2;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
+.text-field p{
+   
+        text-align: left;
+        color: white;
+}
+
 /* Styles for form elements within .container2 */
 .container2 .form-group label {
     font-weight: bold;
-    color: #333;
+    color: white;
 }
 
 .container2 .form-group input[type="text"],
@@ -408,43 +422,110 @@ html, body {
     width: 25%;
     margin-top: -63px;
 }
-
-@media screen and (min-width: 1024px){
+.col-md-6.text-right {margin-top: -208px;}
  
-    .project-header {
-        font-family: 'Verdana Pro', sans-serif;
-      
-        padding-bottom: 10%;
-        font-weight: 600;
-        font-size: 2rem;
-        text-align: center;
+ @media screen and (min-width:481px) and (max-width:600px){
+    * {
+        box-sizing: border-box;
+    }
+    
+    .navbar {
+        box-shadow: -1px 1px 14px 0px #00bFF0;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1030;
+    }
+    .navbar-name {
+        font-size: 1rem;
+    
         color: #F23580;
     }
-    .project-title {
-        font-weight: 400;
-        font-size: 1.3rem;
-        text-align: center;
-        color: #F23580;
-        margin-top: -961px;
+    .navbar-dark .navbar-toggler {
+        color: rgba(255,255,255,.5);
+        border-color: #000;/* border-color: rgba(255,255,255,.1); */
     }
-    .mb-4, .my-4 {
-      padding-top: 22%;
-        margin-bottom: 1.5rem!important;
+    .navbar-nav .nav-item .nav-link {
+        font-weight: 500;
+        font-size: 1.1rem;
+        color:#6e7175; /* Default link color */
+        transition: color 0.3s; /* Add a smooth transition for color change */
     }
-        .row.about-me {
-            padding-top: 300px;
-            justify-content: center;
-            /* margin-top: 218px; */
+    .navbar-nav .nav-item .nav-link:hover {
+        color: #00BFF0; /* Change the color to your desired hover color */
+    }
+    
+        .menu-icon-img img {
+            width: 50px;
         }
-        .gem-section {
-            margin-top: -1979px;
-            position: relative;
-            z-index: -1;
+        .bg-dark {
+            background-color: #000 !important;
         }
+    body {
+        background-color: black;
+    }
+    .wrapper {
+  
+        margin-top: 20%;
+    }
+
+.jumbotron-content {
+    position: relative; /* Position the container as a reference for absolute positioning */
+}
+
+
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    height: auto; /* Maintain the image's aspect ratio */
+}
+.jumbotron {
+    /* margin-top: -100px; */
+    background-color: #000;
+}
+.jumbotron-overlay {
+    width: 100%;
+    position: absolute;
+    top: -115px;
+    /* left: 50%; */
+    /* transform: translate(-50%, -106%); */
+    text-align: center;
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 20px;
+}
+.jumbotron-title {
+    font-weight: 300;
+    font-family: 'Verdana Pro', sans-serif;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.jumbotron-text {
+    
+    color: #00BFF0;
+    font-size: 1.1rem;
+}
+.jumbotron-content img {
+    margin-top: -127px;
+    width: 100%;
+   
+}
+.jumbotron-content {
+      position: relative;
+    z-index: 1;
+}
+
+        
+.gem-section {
+    margin-top: -969px;
+    position: relative;
+    z-index: -1;
+}
         .row.resume-section {
             padding-bottom: 8%;
             justify-content: center;
-            margin-top: -1187px;
+           
             display: -ms-flexbox;
             display: flex;
             -ms-flex-wrap: wrap;
@@ -465,10 +546,10 @@ html, body {
         }
         
         .btn {
+            margin-top: -132px;
             justify-content: center;
             /* margin-left: auto; */
-            margin-left: 197px;
-            margin-top: 764px;
+            /* margin-left: 197px; */
             color: #fff;
             background-color: #f23580;
             border-color: transparent;
@@ -480,19 +561,57 @@ html, body {
             m: ;
             transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
         }
+        .project-header {
+            /* margin-top: -60px; */
+            padding-bottom: 8%;
+            font-family: 'Verdana Pro', sans-serif;
+            /* margin-top: -143px; */
+            /* padding-bottom: 20px; */
+            font-weight: 500;
+            font-size: 1.8rem;
+            text-align: center;
+            color: #F23580;
+        }
+        .project-title {
+            font-size: 1.4rem;
+            font-weight: 500;
+            text-align: center;
+            color: #F23580;
+        }
         .project-text {
+            margin-right: auto;
             font-weight: 200;
             padding-right: 2%;
-            margin-left: 6px;
-            font-size: 1.2rem;
-            padding: 6%;
+            margin-left: auto;
+            font-size: 1.1rem;
+            padding: 8%;
             color: white;
             /* padding: 20px; */
-            margin-top: 2%;
+            /* margin-top: 2%; */
             position: absolute;
-            /* top: -41px; */
+            top: 28px;
             /* left: 20px; */
         }
+         .col-6 {
+            margin-right: auto;
+            margin-left: auto;
+            position: relative;
+            width: 88%;
+          
+            padding-bottom: 4%;
+        }
+        .glass-border.d-flex {
+            margin-top: -50px;
+           
+        }
+        .resume-title {
+          color: #F23580;
+                font-weight: 500;
+                font-size: 1.6rem;
+                text-align: center;
+            }
+        
+        
         .container2 {
             border-radius: 16px;
             max-width: 74%;
@@ -505,7 +624,7 @@ html, body {
             width: 110%;
         }
         .row-1 {
-            margin-top: -138px;
+            margin-top: -75px;
             position: relative;
             z-index: 3;
         }
@@ -513,9 +632,860 @@ html, body {
        
     padding-bottom: 10%;
     }
+    .col-md-6.about-me-col {width: 50%;
+       
+            padding: 4%;
+            font-size: 1.1rem;
+            width: 50%;
+            background-color: transparent;
+            } 
+    .resume-image {
+        border-radius: 16px;
+    }
+    .about-section-title{
+       color: #F23580;
+            font-weight: 500;
+            font-size: 1.3rem;
+      
+    }
+    .row > .col-md-6:last-child.about-me-col {
+    /* Add your styles for the right side here */
+    background-color: white;
+    color: black;
+   
+    
+    /* Add any other specific styles for the right side */
+}
+    .row.resume-section {
+        margin-top: -572px;
+        padding-bottom: 8%;
+        justify-content: center;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .wrapper .footer {
+        margin-top: 10px;
+    }
+    .input-group.mb-3 {
+        width: 70%;
+    }
+    .input-group {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        width: 70%;
+    }
+    iframe{
+        width: 90%;
+    }
+    .h2, h2 {
+        font-size: 2rem;
+        color: #F23580;
+    }
+    .container2 {
+        margin-top: 20%;
+        /* padding-bottom: 16%; */
+        border-radius: 16px;
+        max-width: 93%;
+       
+        padding: 30px;
+      
+       
+    }
+    /* Styles for form elements within .container2 */
+    .container2 .form-group label {
+        font-weight: bold;
+        color: #333;
+    }
+    
+    .container2 .form-group input[type="text"],
+    .container2 .form-group input[type="email"],
+    .container2 .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    .container2 .form-group textarea {
+        resize: vertical;
+    }
+    
+    .container2 button {
+        border-radius: 5.25rem;
+        background-color: #F23580;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    
+    /* Your existing footer styles */
+    .footer {padding-top: 22%;
+     
+        box-shadow: -1px 1px 14px 0px #00BFF0;
+   
+        background-color: #000;
+    }
+    
+    
+    /* Add this CSS to your existing stylesheet */
+    
+    #footer-image {
+        width: 170px;
+       
+    }
+    
+    .footer-text {
+        font-size: 12px;
+        color: #495057;
+    }
+    /* Style for the footer links */
+    .footer-links {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .footer-links li {
+        margin-bottom: 10px;
+    }
+    
+    .footer-links a {
+        text-decoration: none;
+        color: #f23580;
+        transition: text-decoration 0.3s; /* Add a smooth transition effect */
+    }
+    
+    .footer-links a:hover {
+        text-decoration: underline; /* Underline the link on hover */
+        color: #00BFF0; /* Change the link color on hover */
+    }
+    .container-fluid footer img {
+        margin-left: 37%;
+        justify-content: center;
+        width: 25%;
+        margin-top: -63px;
+    }
+    .col-md-6.text-right {margin-top: -208px;}
+    
         }
     
+     @media screen and (min-width:601px) and (max-width:750px) {
+        * {
+            box-sizing: border-box;
+        }
         
+        .navbar {
+            box-shadow: -1px 1px 14px 0px #00bFF0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1030;
+        }
+        .navbar-name {
+            font-size: 1rem;
+        
+            color: #F23580;
+        }
+        .navbar-dark .navbar-toggler {
+            color: rgba(255,255,255,.5);
+            border-color: #000;/* border-color: rgba(255,255,255,.1); */
+        }
+        .navbar-nav .nav-item .nav-link {
+            font-weight: 500;
+            font-size: 1.1rem;
+            color:#6e7175; /* Default link color */
+            transition: color 0.3s; /* Add a smooth transition for color change */
+        }
+        .navbar-nav .nav-item .nav-link:hover {
+            color: #00BFF0; /* Change the color to your desired hover color */
+        }
+        
+            .menu-icon-img img {
+                width: 50px;
+            }
+            .bg-dark {
+                background-color: #000 !important;
+            }
+        body {
+            background-color: black;
+        }
+        .wrapper {
+      
+            margin-top: 20%;
+        }
+    
+    .jumbotron-content {
+        position: relative; /* Position the container as a reference for absolute positioning */
+    }
+    
+    
+    img {
+        max-width: 100%; /* Ensure the image doesn't exceed its container width */
+        height: auto; /* Maintain the image's aspect ratio */
+    }
+    .jumbotron {
+        /* margin-top: -100px; */
+        background-color: #000;
+    }
+    .jumbotron-overlay {
+        width: 100%;
+        position: absolute;
+        top: -115px;
+        /* left: 50%; */
+        /* transform: translate(-50%, -106%); */
+        text-align: center;
+        color: white;
+        /* background-color: rgba(0, 0, 0, 0.5); */
+        padding: 20px;
+    }
+    .jumbotron-title {
+        font-weight: 300;
+        font-family: 'Verdana Pro', sans-serif;
+        font-size: 1.8rem;
+        color: white;
+    }
+    
+    .jumbotron-text {
+        
+        color: #00BFF0;
+        font-size: 1.1rem;
+    }
+    .jumbotron-content img {
+        margin-top: -127px;
+        width: 100%;
+       
+    }
+    .jumbotron-content {
+          position: relative;
+        z-index: 1;
+    }
+    
+            
+    .gem-section {
+        margin-top: -969px;
+        position: relative;
+        z-index: -1;
+    }
+            .row.resume-section {
+                padding-bottom: 8%;
+                justify-content: center;
+               
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+                margin-right: auto;
+                margin-left: auto;
+            }
+         
+            .row.footer {
+                padding: 1rem;
+            }
+            .jumbotron-title {
+                font-weight: 330;
+                font-family: 'Verdana Pro', sans-serif;
+                font-size: 2.4rem;
+                /* font-weight: bold; */
+                color: white;
+            }
+            
+            .btn {
+                margin-top: -132px;
+                justify-content: center;
+                /* margin-left: auto; */
+                /* margin-left: 197px; */
+                color: #fff;
+                background-color: #f23580;
+                border-color: transparent;
+                border: 1px solid transparent;
+                padding: 0.375rem .75rem;
+                font-size: 1.1rem;
+                line-height: 1.;
+                border-radius: 5.25rem;
+                m: ;
+                transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+            }
+            .project-header {
+                /* margin-top: -60px; */
+                padding-bottom: 8%;
+                font-family: 'Verdana Pro', sans-serif;
+                /* margin-top: -143px; */
+                /* padding-bottom: 20px; */
+                font-weight: 500;
+                font-size: 1.8rem;
+                text-align: center;
+                color: #F23580;
+            }
+            .project-title {
+                font-size: 1.4rem;
+                font-weight: 500;
+                text-align: center;
+                color: #F23580;
+            }
+            .project-text {
+                margin-right: auto;
+                font-weight: 200;
+                padding-right: 2%;
+                margin-left: auto;
+                font-size: 1.1rem;
+                padding: 8%;
+                color: white;
+                /* padding: 20px; */
+                /* margin-top: 2%; */
+                position: absolute;
+                top: 28px;
+                /* left: 20px; */
+            }
+             .col-6 {
+                margin-right: auto;
+                margin-left: auto;
+                position: relative;
+                width: 88%;
+                padding-right: 15px;
+                padding-left: 15px;
+                padding-bottom: 4%;
+            }
+            .glass-border.d-flex {
+                margin-top: -50px;
+               
+            }
+            .resume-title {
+              color: #F23580;
+                    font-weight: 500;
+                    font-size: 1.6rem;
+                    text-align: center;
+                }
+            
+            
+            .container2 {
+                border-radius: 16px;
+                max-width: 74%;
+                margin: 0 auto;
+                padding: 30px;
+                background-color: #f2f2f2;
+                box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+            }
+            .row-1 img{
+                width: 110%;
+            }
+            .row-1 {
+                margin-top: -75px;
+                position: relative;
+                z-index: 3;
+            }
+            .col-md-6 .zoom-on-hover {
+           
+        padding-bottom: 10%;
+        }
+        .col-md-6.about-me-col {width: 50%;
+            background-color: white;
+          
+                padding: 4%;
+                font-size: 1.1rem;
+                width: 50%;
+                background-color: white;
+                } 
+        
+        .about-section-title{
+           color: #F23580;
+                font-weight: 500;
+                font-size: 1.3rem;
+          
+        }
+        .row.resume-section {
+            margin-top: -572px;
+            padding-bottom: 8%;
+            justify-content: center;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .wrapper .footer {
+            margin-top: 10px;
+        }
+        .input-group.mb-3 {
+            width: 70%;
+        }
+        .input-group {
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+            width: 70%;
+        }
+        iframe{
+            width: 90%;
+        }
+        .h2, h2 {
+            font-size: 2rem;
+            color: #F23580;
+        }
+        .container2 {
+            margin-top: 20%;
+            /* padding-bottom: 16%; */
+            border-radius: 16px;
+            max-width: 93%;
+           
+            padding: 30px;
+          
+           
+        }
+        /* Styles for form elements within .container2 */
+        .container2 .form-group label {
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .container2 .form-group input[type="text"],
+        .container2 .form-group input[type="email"],
+        .container2 .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        .container2 .form-group textarea {
+            resize: vertical;
+        }
+        
+        .container2 button {
+            border-radius: 5.25rem;
+            background-color: #F23580;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        
+        /* Your existing footer styles */
+        .footer {padding-top: 22%;
+         
+            box-shadow: -1px 1px 14px 0px #00BFF0;
+       
+            background-color: #000;
+        }
+        
+        
+        /* Add this CSS to your existing stylesheet */
+        
+        #footer-image {
+            width: 170px;
+           
+        }
+        
+        .footer-text {
+            font-size: 12px;
+            color: #495057;
+        }
+        /* Style for the footer links */
+        .footer-links {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links a {
+            text-decoration: none;
+            color: #f23580;
+            transition: text-decoration 0.3s; /* Add a smooth transition effect */
+        }
+        
+        .footer-links a:hover {
+            text-decoration: underline; /* Underline the link on hover */
+            color: #00BFF0; /* Change the link color on hover */
+        }
+        .container-fluid footer img {
+            margin-left: 37%;
+            justify-content: center;
+            width: 25%;
+            margin-top: -63px;
+        }
+        .col-md-6.text-right {margin-top: -208px;}
+        
+            }
+        
+        
+
+    @media screen and (min-width:751px)   and (max-width: 968px) {
+    
+     
+    
+    
+    .navbar {
+        box-shadow: -1px 1px 14px 0px #00bFF0;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1030;
+    }
+    .navbar-name {
+        font-size: 1rem;
+    
+        color: #F23580;
+    }
+    .navbar-dark .navbar-toggler {
+        color: rgba(255,255,255,.5);
+        border-color: #000;/* border-color: rgba(255,255,255,.1); */
+    }
+    .navbar-nav .nav-item .nav-link {
+        font-weight: 500;
+        font-size: 1.1rem;
+        color:#6e7175; /* Default link color */
+        transition: color 0.3s; /* Add a smooth transition for color change */
+    }
+    .navbar-nav .nav-item .nav-link:hover {
+        color: #00BFF0; /* Change the color to your desired hover color */
+    }
+    
+        .menu-icon-img img {
+            width: 50px;
+        }
+        .bg-dark {
+            background-color: #000 !important;
+        }
+    body {
+        background-color: black;
+    }
+    .wrapper {
+  
+        margin-top: 20%;
+    }
+
+.jumbotron-content {
+    position: relative; /* Position the container as a reference for absolute positioning */
+}
+
+
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    height: auto; /* Maintain the image's aspect ratio */
+}
+.jumbotron {
+    margin-top: -100px;
+    background-color: #000;
+}
+.jumbotron-overlay {
+    width: 100%;
+    position: absolute;
+    top: -115px;
+    /* left: 50%; */
+    /* transform: translate(-50%, -106%); */
+    text-align: center;
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 20px;
+}
+.jumbotron-title {
+    font-weight: 300;
+    font-family: 'Verdana Pro', sans-serif;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.jumbotron-text {
+    
+    color: #00BFF0;
+    font-size: 1.1rem;
+}
+.jumbotron-content img {
+    margin-top: -127px;
+    width: 100%;
+   
+}
+.jumbotron-content {
+      position: relative;
+    z-index: 1;
+}
+
+        
+.gem-section {
+    margin-top: -1644px;
+    position: relative;
+    z-index: -1;
+}
+        .row.resume-section {
+            padding-bottom: 8%;
+            justify-content: center;
+           
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: auto;
+            margin-left: auto;
+        }
+     
+        .row.footer {
+            padding: 1rem;
+        }
+        .jumbotron-title {
+            font-weight: 330;
+            font-family: 'Verdana Pro', sans-serif;
+            font-size: 2.4rem;
+            /* font-weight: bold; */
+            color: white;
+        }
+        
+        .btn {
+            margin-top: -132px;
+            justify-content: center;
+            /* margin-left: auto; */
+            /* margin-left: 197px; */
+            color: #fff;
+            background-color: #f23580;
+            border-color: transparent;
+            border: 1px solid transparent;
+            padding: 0.375rem .75rem;
+            font-size: 1.1rem;
+            line-height: 1.;
+            border-radius: 5.25rem;
+            m: ;
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+        .project-header {
+            /* margin-top: -60px; */
+            padding-bottom: 8%;
+            font-family: 'Verdana Pro', sans-serif;
+            /* margin-top: -143px; */
+            /* padding-bottom: 20px; */
+            font-weight: 500;
+            font-size: 1.8rem;
+            text-align: center;
+            color: #F23580;
+        }
+        .project-title {
+            font-size: 1.4rem;
+            font-weight: 500;
+            text-align: center;
+            color: #F23580;
+        }
+        .project-text {
+            margin-right: auto;
+            font-weight: 200;
+            padding-right: 2%;
+            margin-left: auto;
+            font-size: 1.1rem;
+            padding: 8%;
+            color: white;
+            /* padding: 20px; */
+            /* margin-top: 2%; */
+            position: absolute;
+            top: 28px;
+            /* left: 20px; */
+        }
+         .col-6 {
+            margin-right: auto;
+            margin-left: auto;
+            position: relative;
+            width: 50%;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-bottom: 4%;
+        }
+        .glass-border.d-flex {
+            margin-top: -50px;
+           
+        }
+        .resume-title {
+          color: #F23580;
+                font-weight: 500;
+                font-size: 1.6rem;
+                text-align: center;
+            }
+        
+        
+        .container2 {
+            border-radius: 16px;
+            max-width: 74%;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #f2f2f2;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+        }
+        .row-1 img{
+            width: 110%;
+        }
+        .row-1 {
+            margin-top: -75px;
+            position: relative;
+            z-index: 3;
+        }
+        .col-md-6 .zoom-on-hover {
+       
+    padding-bottom: 10%;
+    }
+    .col-md-6.about-me-col {
+        margin-top: 14%;
+        border-radius: 16px;
+        width: 50%;
+        background-color: white;
+        /* padding: 4%; */
+        font-size: 1.1rem;
+        width: 50%;
+        background-color: white;
+    }
+    .about-me-col .about-section-text {
+        font-size: 1.1rem;
+        margin-top: -11px;
+    }
+            .row > .col-md-6:first-child.about-me-col {
+                /* Add your styles for the left side here */
+               background-color: transparent;
+                color: white;
+                /* Add any other specific styles for the left side */
+            }
+            .resume-image {
+                border-radius: 16px;
+            }
+    .about-section-title{
+       color: #F23580;
+            font-weight: 500;
+            font-size: 1.3rem;
+      
+    }
+    .row.resume-section {
+        margin-top: -572px;
+        padding-bottom: 8%;
+        justify-content: center;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .wrapper .footer {
+        margin-top: 10px;
+    }
+    .input-group.mb-3 {
+        width: 70%;
+    }
+    .input-group {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        width: 70%;
+    }
+    iframe{
+        width: 90%;
+    }
+    .h2, h2 {
+        font-size: 2rem;
+        color: #F23580;
+    }
+    .container2 {
+        margin-top: 20%;
+        /* padding-bottom: 16%; */
+        border-radius: 16px;
+        max-width: 93%;
+       
+        padding: 30px;
+      
+       
+    }
+    /* Styles for form elements within .container2 */
+    .container2 .form-group label {
+        font-weight: bold;
+        color: #333;
+    }
+    
+    .container2 .form-group input[type="text"],
+    .container2 .form-group input[type="email"],
+    .container2 .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    .container2 .form-group textarea {
+        resize: vertical;
+    }
+    
+    .container2 button {
+        border-radius: 5.25rem;
+        background-color: #F23580;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    
+    /* Your existing footer styles */
+    .footer {margin-top:30%;
+     
+        box-shadow: -1px 1px 14px 0px #00BFF0;
+   
+        background-color: #000;
+    }
+    
+    
+    /* Add this CSS to your existing stylesheet */
+    
+    #footer-image {
+        width: 170px;
+       
+    }
+    
+    .footer-text {
+        font-size: 12px;
+        color: #495057;
+    }
+    /* Style for the footer links */
+    .footer-links {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .footer-links li {
+        margin-bottom: 10px;
+    }
+    
+    .footer-links a {
+        text-decoration: none;
+        color: #f23580;
+        transition: text-decoration 0.3s; /* Add a smooth transition effect */
+    }
+    
+    .footer-links a:hover {
+        text-decoration: underline; /* Underline the link on hover */
+        color: #00BFF0; /* Change the link color on hover */
+    }
+    .container-fluid footer img {
+        margin-left: 37%;
+        justify-content: center;
+        width: 25%;
+        margin-top: -63px;
+    }
+   
+    
+        }
+       
         @media screen and (min-width: 1200px) {
             body {
               background-color: black;

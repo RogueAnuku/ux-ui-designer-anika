@@ -6,6 +6,7 @@
     .bg-dark {
         background-color: #000 !important;
     }
+.menu-icon-img {   width: 38px}
 body {
     background-color: black;
 }
@@ -19,8 +20,7 @@ body {
     z-index: 1030;
 }
 .navbar-name {
-    font-size: 1rem;
-
+    font-size: .75rem;
     color: #F23580;
 }
 .navbar-dark .navbar-toggler {
@@ -204,7 +204,7 @@ iframe {
         font-size: 1rem;
         line-height: 1.;
         border-radius: 5.25rem;
-        m: ;
+        
         transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     }
      .col-6 {
@@ -269,7 +269,7 @@ iframe {
     border-radius: 16px;
 } 
     /* Add any other specific styles for the right side */
-}
+
 
 
 .about-me-col .about-section-title {
@@ -423,6 +423,7 @@ html, body {
     margin-top: -63px;
 }
 .col-md-6.text-right {margin-top: -208px;}
+}
  
  @media screen and (min-width:481px) and (max-width:600px){
     * {
@@ -558,7 +559,7 @@ img {
             font-size: 1.1rem;
             line-height: 1.;
             border-radius: 5.25rem;
-            m: ;
+            
             transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
         }
         .project-header {
@@ -912,7 +913,7 @@ img {
                 font-size: 1.1rem;
                 line-height: 1.;
                 border-radius: 5.25rem;
-                m: ;
+              
                 transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
             }
             .project-header {
@@ -1128,7 +1129,12 @@ img {
 
     @media screen and (min-width:751px)   and (max-width: 968px) {
     
-     
+        .row {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;}
+           
     
     
     .navbar {
@@ -1260,7 +1266,7 @@ img {
             font-size: 1.1rem;
             line-height: 1.;
             border-radius: 5.25rem;
-            m: ;
+            
             transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
         }
         .project-header {
@@ -1485,18 +1491,170 @@ img {
    
     
         }
+       @media screen and (min-width:1024px ) and (max-width: 1200px){
+                
        
-        @media screen and (min-width: 1200px) {
-            body {
+             body {
               background-color: black;
             }
-            .jumbotron-title {
-                font-weight: 400;
-                font-family: 'Verdana Pro', sans-serif;
-                font-size: 2.6rem;
-                /* font-weight: bold; */
-                color: white;
+            .menu-icon-img img {
+                width: 46px;
             }
+            .bg-dark {
+                background-color: #000 !important;
+            }
+        .menu-icon-img {   width: 38px}
+        body {
+            background-color: black;
+        }
+        
+        .navbar {
+            box-shadow: -1px 1px 14px 0px #00bFF0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1030;
+        }
+        .navbar-name {
+            /* font-family: cinzel; */
+            font-size: 1.2rem;
+            color: #F23580;
+        }
+        .navbar-dark .navbar-toggler {
+            color: rgba(255,255,255,.5);
+            border-color: #000;/* border-color: rgba(255,255,255,.1); */
+        }
+        .navbar-nav .nav-item .nav-link {
+            font-weight: 500;
+            font-size: 1.1rem;
+            color:#6e7175; /* Default link color */
+            transition: color 0.3s; /* Add a smooth transition for color change */
+        }
+        .navbar-nav .nav-item .nav-link:hover {
+            color: #00BFF0; /* Change the color to your desired hover color */
+        }
+        .navbar-expand-lg .navbar-collapse {
+            display: -ms-flexbox!important;
+            display: flex!important;
+            -ms-flex-preferred-size: auto;
+            flex-basis: auto;
+            justify-content: flex-end;
+        }
+        .bg-dark {
+            background-color: #000!important;
+        }
+        .menu-icon-img img {
+            width: 50px;
+        }
+        .menu-icon-img img {
+            transition: transform 0.3s; /* Add a smooth transition effect */
+        }
+        
+        .menu-icon-img:hover img {
+            transform: scale(1.1); /* Increase the size on hover */
+        }
+      
+        
+        .jumbotron-content {
+            position: relative; /* Position the container as a reference for absolute positioning */
+        }
+        
+        
+        img {
+            max-width: 100%; /* Ensure the image doesn't exceed its container width */
+            height: auto; /* Maintain the image's aspect ratio */
+        }
+        .jumbotron {
+            /* margin-top: -100px; */
+            background-color: #000;
+        }
+        .jumbotron-overlay {
+            width: 100%;
+            position: absolute;
+            top: -30px;
+            /* left: 50%; */
+            /* transform: translate(-50%, -106%); */
+            text-align: center;
+            color: white;
+            /* background-color: rgba(0, 0, 0, 0.5); */
+            padding: 20px;
+        }
+        .jumbotron-title {
+            font-weight: 300;
+            font-family: 'Verdana Pro', sans-serif;
+            font-size: 1.8rem;
+            color: white;
+        }
+        
+        .jumbotron-text {
+            color: #00BFF0;
+            font-size: 1.75rem;
+        }
+        .jumbotron-content img {
+            
+            width: 100%;
+           
+        }
+        .jumbotron-content {
+              position: relative;
+            z-index: 1;
+        }
+        /* Your existing jumbotron styles remain the same */
+        
+        /* Style for the content inside the glass border */
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            /* min-height: 100%; */
+        }
+        .zoom-on-hover {
+            transition: transform 0.2s ease-in-out; /* Smooth transition on hover */
+        }
+        
+        .zoom-on-hover:hover {
+            transform: scale(1.1); /* Increase the size on hover (zoom) */
+        }
+        .row-1 {
+            margin-top: -39px;
+            position: relative;
+            z-index: 3;
+        }
+        .row {
+           
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: auto;
+            margin-left: auto;
+        }   
+        .project-header {
+            /* margin-top: -60px; */
+            padding-bottom: 8%;
+            /* font-family: cinzel; */
+            /* margin-top: -143px; */
+            /* padding-bottom: 20px; */
+            font-weight: 500;
+            font-size: 3rem;
+            text-align: center;
+            color: #F23580;
+        }
+        .project-title {
+            font-family: cinzel;
+            color: #F23580;
+            /* margin-top: 30px; */
+            text-align: center;
+            font-size: 2rem;
+        } 
+       
+        .jumbotron-title {
+            font-weight: 400;
+            font-family: 'Verdana Pro', sans-serif;
+            font-size: 2.75rem;
+            /* font-weight: bold; */
+            color: white;
+        }
             .jumbotron-content img {
                 margin-top: -154px;
                 width: 100%;
@@ -1507,6 +1665,104 @@ img {
                 position: relative;
                 z-index: 1;
             }
-       
+            .row-1 {
+                margin-top: -153px;
+                position: relative;
+                z-index: 3;
+            }
+          
+                .border-image-container {
+                    position: relative;
+                
+                }
+        
+                /* Default styles for the border image */
+                .border-image {
+                    margin-top: -54px;
+                    width: 100%;
+                    height: 100%;
+                }
+                /* Styles for the project text */
+                .project-text {
+                    color: white;
+                    font-weight: 400;
+                    /* margin-left: auto; */
+                    /* margin-right: auto; */
+                    justify-content: center;
+                    position: absolute;
+                    top: 10%;
+                    left: 2%;
+                    width: 95%;
+                    padding: 30px;
+                    /* background: white; */
+                    font-size: 1.1rem;
+                }
+                .btn-primary {
+                    border-radius: 1.3rem;
+                    color: #fff;
+                    font-weight: 600;
+                    background-color: #f23580;
+                    border-color: #f23580;
+                }
+                .gem-section img{
+                    margin-top: -2232px; 
+                }
+                .col-md-6.zoom-on-hover {
+                   
+                        margin-right: auto;
+                        margin-left: auto;
+                   
+                }
+                .col-md-6 {
+                    -ms-flex: 0 0 50%;
+                    flex: 0 0 50%;
+                    max-width: 48%;
+                }
+                .footer {margin-top:30%;
+     
+                    box-shadow: -1px 1px 14px 0px #00BFF0;
+               
+                    background-color: #000;
+                }
+                
+                
+                /* Add this CSS to your existing stylesheet */
+                
+                #footer-image {
+                    width: 170px;
+                   
+                }
+                
+                .footer-text {
+                    font-size: 12px;
+                    color: #495057;
+                }
+                /* Style for the footer links */
+                .footer-links {
+                    list-style-type: none;
+                    padding: 0;
+                }
+                
+                .footer-links li {
+                    margin-bottom: 10px;
+                }
+                
+                .footer-links a {
+                    text-decoration: none;
+                    color: #f23580;
+                    transition: text-decoration 0.3s; /* Add a smooth transition effect */
+                }
+                
+                .footer-links a:hover {
+                    text-decoration: underline; /* Underline the link on hover */
+                    color: #00BFF0; /* Change the link color on hover */
+                }
+                .container-fluid footer img {
+                    margin-left: 37%;
+                    justify-content: center;
+                    width: 25%;
+                    margin-top: -63px;
+                }
+               
           }
-    
+   

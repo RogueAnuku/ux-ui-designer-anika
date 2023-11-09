@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media  (min-width: 320px)  {
   
 
 body {
@@ -41,7 +41,10 @@ transition: color 0.3s; /* Add a smooth transition for color change */
  .navbar-nav .nav-item .nav-link:hover {
 color: #00BFF0; /* Change the color to your desired hover color */
  }
-
+ .glass-border.d-flex {
+    PADDING: 4%;
+    margin-top: -58px;
+}
 
 
 
@@ -108,14 +111,13 @@ img {
     z-index: 3;
 }
 .row {
-   
+   margin-left: 0;
+   margin-right: 0;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: auto;
-    margin-left: auto;
-}
+    flex-wrap: wrap;}
+
 .border-image-container {
    
         position: sticky;
@@ -151,9 +153,9 @@ img {
     position: relative;
 }
 .border-image {
-    padding-bottom: 62%;
+    /* padding-bottom: 306%; */
     max-width: 100%;
-    height: 116%;
+    height: 1190px;
 }
 .glass-border.d-flex {
     margin-top: -58px;
@@ -189,13 +191,9 @@ iframe {
     }
  
     .btn {
-        margin-left: 37%;
-        margin-top: -720px;
-        /* margin-right: auto; */
+        margin-top: -199px;
+        /* margin-left: 37%; */
         justify-content: center;
-        /* margin-left: auto; */
-        /* margin-left: 133px; */
-        /* margin-top: 547px; */
         color: #fff;
         background-color: #f23580;
         border-color: transparent;
@@ -205,7 +203,8 @@ iframe {
         line-height: 1.;
         border-radius: 5.25rem;
         transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    }.col-6 {
+    }
+    .col-6 {
         padding-bottom: 8%;
         padding-top: 2%;
         /* padding: 2%; */
@@ -250,19 +249,6 @@ iframe {
     position: relative;
     z-index: -1;
 }
-
-/* Target the left side of the row */
-.row > .col-md-6:first-child.about-me-col {
-    /* Add your styles for the left side here */
-   
-    color: white;
-    /* Add any other specific styles for the left side */
-}
-/* Target the right side of the row */
-/* Add any other specific styles for the right side */
-
-
-
 
 
 .about-section-text {
@@ -392,7 +378,7 @@ iframe {
 .col-md-6.text-right {margin-top: -208px;}
 }
  
- @media screen and (min-width:481px) and (max-width:600px){
+ @media  (min-width:576px)   {
  
    
     .bg-dark {
@@ -417,10 +403,7 @@ iframe {
     font-size: 1.2rem;
     color: #F23580;
      }
-     .navbar-dark .navbar-toggler {
-    color: rgba(255,255,255,.5);
-    border-color: #000;/* border-color: rgba(255,255,255,.1); */
-     }
+    
      .navbar-nav .nav-item .nav-link {
     font-weight: 500;
     font-size: 1.1rem;
@@ -431,16 +414,14 @@ iframe {
     color: #00BFF0; /* Change the color to your desired hover color */
      }
   
-    .container-fluid {
-        margin-top: 32%;
-        padding: 0;
-      
-    }
+  
    
 
-.jumbotron-content {
-    position: relative; /* Position the container as a reference for absolute positioning */
-}
+    .jumbotron-content {
+        margin-top: 38%;
+        position: relative;
+        z-index: 1;
+    }
 
 
 img {
@@ -454,7 +435,7 @@ img {
 .jumbotron-overlay {
     width: 100%;
     position: absolute;
-    top: -115px;
+    top: -162px;
     /* left: 50%; */
     /* transform: translate(-50%, -106%); */
     text-align: center;
@@ -463,21 +444,19 @@ img {
     padding: 20px;
 }
 .jumbotron-title {
-    font-weight: 300;
+    padding-top: 4%;
+    font-weight: 330;
     font-family: 'Verdana Pro', sans-serif;
-    font-size: 1.8rem;
+    font-size: 2rem;
+    /* font-weight: bold; */
     color: white;
 }
 
-.jumbotron-text {
-    
-    color: #00BFF0;
-    font-size: 1.1rem;
-}
+
+
 .jumbotron-content img {
-    margin-top: -127px;
+    margin-top: -174px;
     width: 100%;
-   
 }
 .jumbotron-content {
       position: relative;
@@ -629,7 +608,7 @@ img {
     
     
     /* Add any other specific styles for the right side */
-}
+
     .row.resume-section {
         margin-top: -572px;
         padding-bottom: 8%;
@@ -733,21 +712,19 @@ img {
         margin-top: -50px;
     }
     .col-md-6.text-right {margin-top: -208px;}
+}
     
         
     
-     @media screen and (min-width:601px) and (max-width:750px) {
-        * {
-            box-sizing: border-box;
-        }
-        
-        .menu-icon-img img {
-            width: 46px;
-        }
+     @media (min-width:768px)  {
+      
         .bg-dark {
             background-color: #000 !important;
         }
-         .menu-icon-img {   width: 38px}
+       
+        body {
+        background-color: black;
+        } 
      
      
          .navbar {
@@ -763,10 +740,7 @@ img {
         font-size: 1.2rem;
         color: #F23580;
          }
-         .navbar-dark .navbar-toggler {
-        color: rgba(255,255,255,.5);
-        border-color: #000;/* border-color: rgba(255,255,255,.1); */
-         }
+        
          .navbar-nav .nav-item .nav-link {
         font-weight: 500;
         font-size: 1.1rem;
@@ -776,28 +750,12 @@ img {
          .navbar-nav .nav-item .nav-link:hover {
         color: #00BFF0; /* Change the color to your desired hover color */
          }
-         .navbar-expand-lg .navbar-collapse {
-        display: -ms-flexbox!important;
-        display: flex!important;
-        -ms-flex-preferred-size: auto;
-        flex-basis: auto;
-        justify-content: flex-end;
-         }
-            .bg-dark {
-                background-color: #000 !important;
-            }
-        body {
-            background-color: black;
-        }
-       .container-fluid {
-            margin-top: 32%;
-            padding: 0;
-            /* margin-right: auto; */
-            /* margin-left: auto; */
-        }
-    .jumbotron-content {
-        position: relative; /* Position the container as a reference for absolute positioning */
-    }
+      
+      
+       
+    
+       
+   
     
     
     img {
@@ -807,11 +765,12 @@ img {
     .jumbotron {
         /* margin-top: -100px; */
         background-color: #000;
+        box-shadow: -1px 1px 14px 0px #00bFF0;
     }
     .jumbotron-overlay {
         width: 100%;
         position: absolute;
-        top: -115px;
+        top: -170px;
         /* left: 50%; */
         /* transform: translate(-50%, -106%); */
         text-align: center;
@@ -825,22 +784,17 @@ img {
         font-size: 1.8rem;
         color: white;
     }
-    
+    .jumbotron-content img {
+        margin-top: -200px;
+        width: 100%;
+    }
     .jumbotron-text {
         
         color: #00BFF0;
         font-size: 1.1rem;
     }
-    .jumbotron-content img {
-        margin-top: -127px;
-        width: 100%;
-       
-    }
-    .jumbotron-content {
-          position: relative;
-        z-index: 1;
-    }
-    
+   
+   
             
     .gem-section {
         margin-top: -969px;
@@ -862,13 +816,7 @@ img {
             .row.footer {
                 padding: 1rem;
             }
-            .jumbotron-title {
-                font-weight: 330;
-                font-family: 'Verdana Pro', sans-serif;
-                font-size: 2.4rem;
-                /* font-weight: bold; */
-                color: white;
-            }
+           
             
             .btn {
                 margin-top: -132px;
@@ -946,6 +894,10 @@ img {
                 background-color: #f2f2f2;
                 box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
             }
+            .row {
+                margin-left: 0;
+                margin-right: 0;
+            }
             .row-1 img{
                 width: 110%;
             }
@@ -1012,16 +964,7 @@ img {
             font-size: 2rem;
             color: #F23580;
         }
-        .container2 {
-            margin-top: 20%;
-            /* padding-bottom: 16%; */
-            border-radius: 16px;
-            max-width: 93%;
-           
-            padding: 30px;
-          
-           
-        }
+       
         /* Styles for form elements within .container2 */
         .container2 .form-group label {
             font-weight: bold;
@@ -1091,8 +1034,7 @@ img {
         
         
 
-    @media screen and (min-width:751px)   and (max-width: 1023px) {
-    
+    @media  (min-width:992px)  {
         .menu-icon-img img {
             width: 46px;
         }
@@ -1127,6 +1069,13 @@ img {
          }
          .navbar-nav .nav-item .nav-link:hover {
         color: #00BFF0; /* Change the color to your desired hover color */
+         }
+         .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+        justify-content: flex-end;
          }
       
         .bg-dark {
@@ -1184,12 +1133,12 @@ img {
     padding: 20px;
 }
 .jumbotron-title {
+    margin-top: -38px;
     font-weight: 300;
     font-family: 'Verdana Pro', sans-serif;
-    font-size: 1.8rem;
+    font-size: 2.9rem;
     color: white;
 }
-
 .jumbotron-text {
     
     color: #00BFF0;
@@ -1442,7 +1391,7 @@ img {
    
     
         }
-       @media screen and (min-width:1024px ){
+       @media  (min-width: 1200px ) {
                 
        
              body {
@@ -1465,6 +1414,15 @@ img {
             left: 0;
             z-index: 1030;
              }
+             .navbar-brand {
+    display: inline-block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
              .navbar-name {
             /* font-family: cinzel; */
             font-size: 1.2rem;
@@ -1490,9 +1448,6 @@ img {
             flex-basis: auto;
             justify-content: flex-end;
              }
-        .bg-dark {
-            background-color: #000!important;
-        }
        
         .container-fluid {
             margin-top: 20%;
@@ -1550,7 +1505,9 @@ img {
         /* Your existing jumbotron styles remain the same */
         
         /* Style for the content inside the glass border */
-      
+      .row.about-me.zoom-on-hover {
+        padding: 12%;
+      }
         .zoom-on-hover {
             transition: transform 0.2s ease-in-out; /* Smooth transition on hover */
         }
@@ -1575,12 +1532,12 @@ img {
             display: flex;
             -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-            margin-right: auto;
-            margin-left: auto;
+            margin-right:0;
+            margin-left: 0;
         }   
         .project-header {
             font-weight: 500;
-            padding-bottom: 2%;
+            padding-bottom: 12%;
             font-size: 3rem;
             text-align: center;
             color: #F23580;
@@ -1608,17 +1565,18 @@ img {
             justify-content: center;
         }
         .jumbotron-title {
-            font-weight: 400;
+            margin-top: -109px;
+            font-weight: 200;
             font-family: 'Verdana Pro', sans-serif;
-            font-size: 2.75rem;
+            font-size: 3.75rem;
             /* font-weight: bold; */
             color: white;
         }
-            .jumbotron-content img {
-                margin-top: -154px;
-                width: 100%;
-                box-shadow: -1px 11px 212px 0px #00bFF0;
-            }
+        .jumbotron-content img {
+            margin-top: -231px;
+            width: 100%;
+            box-shadow: -1px 11px 212px 0px #00bFF0;
+        }
             .jumbotron-content {
               
                 position: relative;
@@ -1629,7 +1587,9 @@ img {
                 position: relative;
                 z-index: 3;
             }
-          
+            .glass-border.d-flex {
+                margin-top: -34px;
+            }
                 .border-image-container {
                     position: relative;
                 
@@ -1671,11 +1631,7 @@ img {
             }
          
              
-              .row.mb-4 {
-            
-                padding: 4%;
-              
-              }
+       
                 .col-md-6 {
                 
                     margin-right: auto;

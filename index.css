@@ -87,6 +87,7 @@ img {
 }
 .jumbotron-content img {
     
+   box-shadow:  -1px 32px 59px #00bFF0;
     width: 100%;
    
 }
@@ -136,26 +137,35 @@ img {
     }
 
     .project-text {
-        margin-right: auto;
-        /* font-weight: 200; */
+        /* margin-right: auto; */
         padding-right: 2%;
-        margin-left: auto;
-        /* font-size: .90rem; */
-        padding: 7%;
+        /* margin-left: auto; */
+        padding: 6%;
         color: white;
-        /* padding: 20px; */
-        /* margin-top: 2%; */
         position: absolute;
         top: 59px;
-        /* left: 20px; */
     }
+    .project-text p {
+        font-size: .85rem;
+        color: #14cfff;
+    }
+    .project-text img {
+     
+            padding-left: 6%;
+            /* display: initial; */
+            justify-content: center;
+            /* margin-left: auto; */
+            /* width: 57%; */
+            padding-top: 10%;
+        }
+    
 .border-image-container {
     position: relative;
 }
 .border-image {
     /* padding-bottom: 306%; */
     max-width: 100%;
-    height: 1190px;
+    height: 926px;
 }
 .glass-border.d-flex {
     margin-top: -58px;
@@ -417,12 +427,6 @@ iframe {
   
    
 
-    .jumbotron-content {
-        margin-top: 38%;
-        position: relative;
-        z-index: 1;
-    }
-
 
 img {
     max-width: 100%; /* Ensure the image doesn't exceed its container width */
@@ -457,6 +461,8 @@ img {
 .jumbotron-content img {
     margin-top: -174px;
     width: 100%;
+    
+   box-shadow:  -1px 32px 59px #00bFF0;
 }
 .jumbotron-content {
       position: relative;
@@ -489,7 +495,10 @@ img {
             /* font-weight: bold; */
             color: white;
         }
-        
+        .border-image {
+            margin-top: -27px;
+            width: 100%;
+        }
         .btn {
             margin-top: -132px;
             justify-content: center;
@@ -537,6 +546,12 @@ img {
             top: 28px;
             /* left: 20px; */
         }
+        .project-text p {
+          
+                font-size: 1rem;
+                color: white;
+            }
+        
          .col-6 {
             margin-right: auto;
             margin-left: auto;
@@ -570,9 +585,7 @@ img {
             background-color: #f2f2f2;
             box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
         }
-        .row-1 img{
-            width: 110%;
-        }
+        
         .row-1 {
             margin-top: -75px;
             position: relative;
@@ -785,6 +798,8 @@ img {
         color: white;
     }
     .jumbotron-content img {
+        
+   box-shadow:  -1px 32px 59px #00bFF0;
         margin-top: -200px;
         width: 100%;
     }
@@ -898,9 +913,7 @@ img {
                 margin-left: 0;
                 margin-right: 0;
             }
-            .row-1 img{
-                width: 110%;
-            }
+          
             .row-1 {
                 margin-top: -75px;
                 position: relative;
@@ -961,7 +974,7 @@ img {
             width: 90%;
         }
         .h2, h2 {
-            font-size: 2rem;
+            font-size: 1.6rem;
             color: #F23580;
         }
        
@@ -1099,9 +1112,7 @@ img {
     margin-left: 0; 
 }
 
-.row-1 img{
-width: 110%;
-}
+
 .row-1 {
     margin-top: -133px;
     position: relative;
@@ -1124,7 +1135,7 @@ img {
 .jumbotron-overlay {
     width: 100%;
     position: absolute;
-    top: -65px;
+    top: -107px;
     /* left: 50%; */
     /* transform: translate(-50%, -106%); */
     text-align: center;
@@ -1145,8 +1156,8 @@ img {
     font-size: 1.1rem;
 }
 .jumbotron-content img {
-    margin-top: -127px;
-    width: 100%;
+ 
+   box-shadow:  -1px 32px 59px #00bFF0;
    
 }
 .jumbotron-content {
@@ -1177,7 +1188,6 @@ img {
      
         .btn {
             font-weight: 500;
-            margin-top: -941px;
             justify-content: center;
             /* margin-left: auto; */
             margin-left: 130px;
@@ -1233,15 +1243,14 @@ img {
         .row.mb-4 {
             padding-right: 2%;
             padding-left: 2%;
-            padding-bottom: 25%;
-            /* padding: 2%; */
+            padding: 6%;
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
         }
         
         .glass-border.d-flex {
-            margin-top: -62px;
+            margin-top: -74px;
         }
         .resume-title {
           color: #F23580;
@@ -1255,11 +1264,7 @@ img {
        
     padding-bottom: 10%;
     }
-    .border-image {
-        height: 141%;
-        padding-bottom: 84%;
-        /* padding: 10px; */
-    }
+  
  
        
     .col-md-6.about-me-col {
@@ -1495,6 +1500,7 @@ img {
         }
         .jumbotron-content img {
             
+   box-shadow:  -1px 32px 59px #00bFF0;
             width: 100%;
            
         }
@@ -1515,14 +1521,17 @@ img {
         .zoom-on-hover:hover {
             transform: scale(1.1); /* Increase the size on hover (zoom) */
         }
-        .row.md-4 {
-                          margin-right: auto;
-                margin-left: auto;
-                margin-top: -124px;
-            
+        .row.mb-4 {
+            padding-right: 2%;
+            padding-left: 2%;
+            /* padding-bottom: 25%; */
+            /* padding: 2%; */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
         }
         .row-1 {
-            margin-top: -39px;
+            margin-top: -240px;
             position: relative;
             z-index: 3;
         }
@@ -1551,19 +1560,17 @@ img {
             /* margin-right: auto; */
             justify-content: center;
             position: absolute;
-            top: 1%;
-            left: 4%;
-            width: 93%;
-            padding: 4%;
+            /* top: 1%; */
+            /* left: 4%; */
+            /* width: 93%; */
+            padding: 8%;
             /* background: white; */
             font-size: 1.1rem;
         }
         .project-text img {
             padding: 5%;
         }
-        .row-mb-4 {
-            justify-content: center;
-        }
+       
         .jumbotron-title {
             margin-top: -109px;
             font-weight: 200;
@@ -1575,18 +1582,15 @@ img {
         .jumbotron-content img {
             margin-top: -231px;
             width: 100%;
-            box-shadow: -1px 11px 212px 0px #00bFF0;
+          
+   box-shadow:  -1px 32px 59px #00bFF0;
         }
             .jumbotron-content {
               
                 position: relative;
                 z-index: 1;
             }
-            .row-1 {
-                margin-top: -153px;
-                position: relative;
-                z-index: 3;
-            }
+           
             .glass-border.d-flex {
                 margin-top: -34px;
             }
@@ -1597,30 +1601,35 @@ img {
         
                 /* Default styles for the border image */
                 .border-image {
-                    margin-top: -64px;
+                    margin-top: -50px;
                     width: 100%;
-                    height: 127%;
-                    padding-bottom: 45%;
+                    height: 82%;
                 }
                 /* Styles for the project text */
             .content-image {
                 padding: 5%;
             }
-               .btn-primary {
-    border-radius: 1.3rem;
-    color: #fff;
-    font-weight: 600;
-    background-color: #f23580;
-    border-color: #f23580;
-    margin-top: -579px;
-    margin-left: 40%;
-}
+            .row.mb-4 {
+                margin-top: -150px;
+            }
+            
+            .btn-primary {
+                border-radius: 1.3rem;
+                color: #fff;
+                font-weight: 600;
+                background-color: #f23580;
+                border-color: #f23580;
+             
+                margin-left: 40%;
+            }
                 a {
                     color: white;
                     background-color: transparent;
                 }
-                .gem-section img{
-                    margin-top: -2232px; 
+                .gem-section {
+                    margin-top: -2857px;
+                    position: relative;
+                    z-index: -1;
                 }
                 .resume-title {
 
@@ -1630,7 +1639,7 @@ img {
                
             }
          
-             
+           
        
                 .col-md-6 {
                 

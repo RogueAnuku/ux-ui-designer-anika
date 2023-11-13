@@ -4,7 +4,17 @@
 
 body {
     background-color: black;
-}
+  
+        margin: 0;
+        /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+      
+    }
+
 
 .menu-icon-img img {
     width: 46px;
@@ -41,10 +51,6 @@ transition: color 0.3s; /* Add a smooth transition for color change */
  .navbar-nav .nav-item .nav-link:hover {
 color: #00BFF0; /* Change the color to your desired hover color */
  }
- .glass-border.d-flex {
-    PADDING: 4%;
-    margin-top: -58px;
-}
 
 
 
@@ -145,9 +151,14 @@ img {
         position: absolute;
         top: 59px;
     }
+    .project-text video {
+        margin-left: 10%;
+        margin-top: -65px;
+        width: 80%;
+    }
     .project-text p {
         font-size: .85rem;
-        color: #14cfff;
+ 
     }
     .project-text img {
      
@@ -163,9 +174,9 @@ img {
     position: relative;
 }
 .border-image {
-    /* padding-bottom: 306%; */
+    height: 126%;
+    padding-bottom: 87%;
     max-width: 100%;
-   
 }
 .glass-border.d-flex {
     margin-top: -58px;
@@ -182,10 +193,9 @@ iframe {
 .h2, h2 {
     font-family: cinzel;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: #F23580;
 }
-
     .resume-title {
 
             font-size: 2rem;
@@ -199,10 +209,9 @@ iframe {
         text-decoration: none;
         background-color: transparent;
     }
- 
     .btn {
-        margin-top: -199px;
-        /* margin-left: 37%; */
+     
+        margin-left: 25%;
         justify-content: center;
         color: #fff;
         background-color: #f23580;
@@ -223,13 +232,6 @@ iframe {
       
     }
  
-    
-    .mb-4, .my-4 {
-        padding-bottom: 8%;
-        margin-bottom: 1.5rem!important;
-    }
-  
-       
 
 
 .resume-image {
@@ -262,9 +264,9 @@ iframe {
 
 
 .about-section-text {
-    margin-left: -50px;
+    /* margin-left: -50px; */
     width: 100%;
-    font-size: 1.1rem;
+    font-size: 1rem;
     border-radius: 16px;
     padding: 5%;
     background-color: white;
@@ -393,6 +395,15 @@ iframe {
     }
    
     body {
+        margin: 0;
+        /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+      
+    
     background-color: black;
     } 
  
@@ -504,11 +515,15 @@ img {
        
      
         .border-image {
-            margin-top: -27px;
+          
             width: 100%;
-        }
+            height: 87%;
+                padding-bottom: 20%;
+              
+            }
+        
         .btn {
-            margin-top: -132px;
+            /* margin-top: -132px; */
             justify-content: center;
             /* margin-left: auto; */
             /* margin-left: 197px; */
@@ -520,7 +535,6 @@ img {
             font-size: 1.1rem;
             line-height: 1.;
             border-radius: 5.25rem;
-            
             transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
         }
         .project-header {
@@ -553,6 +567,9 @@ img {
             position: absolute;
             top: 28px;
             /* left: 20px; */
+        }
+        .project-text video {
+            width: 100%;
         }
         .project-text p {
           
@@ -701,9 +718,17 @@ img {
         }
        
         body {
+            margin: 0;
+            /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: left;
+          
+        
         background-color: black;
         } 
-     
      
          .navbar {
         box-shadow: -1px 1px 14px 0px #00bFF0;
@@ -844,6 +869,9 @@ img {
                 position: absolute;
                 top: 28px;
                 /* left: 20px; */
+            }
+            .project-text video {
+                width: 100%;
             }
              .col-6 {
                 margin-right: auto;
@@ -1013,6 +1041,18 @@ img {
         
 
     @media  (min-width:992px)  {
+        body {
+            margin: 0;
+            /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: left;
+          
+        
+        background-color: black;
+        } 
         .menu-icon-img img {
             width: 46px;
         }
@@ -1059,9 +1099,7 @@ img {
         .bg-dark {
             background-color: #000 !important;
         }
-    body {
-        background-color: black;
-    }
+   
   .container-fluid  {
     margin-top: 32%;
     padding: 0;
@@ -1206,23 +1244,17 @@ img {
             top: 28px;
             /* left: 20px; */
         }
-        .row.mb-4 {
-            padding-right: 2%;
-            padding-left: 2%;
-          
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-        }
+  
         
         .glass-border.d-flex {
             margin-top: -34px;
         }
         .border-image {
+            margin-left: 2%;
             padding-bottom: 44%;
-            height: 124%;
+            height: 85%;
             margin-top: -37px;
-            width: 100%;
+            /* width: 118%; */
         }
         .resume-title {
           color: #F23580;
@@ -1372,11 +1404,18 @@ img {
     
         }
        @media  (min-width: 1200px ) {
-                
-       
-             body {
-              background-color: black;
-            }
+        body {
+            margin: 0;
+            /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: left;
+          
+        
+        background-color: black;
+        } 
             .menu-icon-img img {
                 width: 46px;
             }
@@ -1486,9 +1525,7 @@ img {
         /* Your existing jumbotron styles remain the same */
         
         /* Style for the content inside the glass border */
-      .row.about-me.zoom-on-hover {
-        padding: 12%;
-      }
+     
         .zoom-on-hover {
             transition: transform 0.2s ease-in-out; /* Smooth transition on hover */
         }
@@ -1585,10 +1622,7 @@ img {
             .content-image {
                 padding: 5%;
             }
-            .row.mb-4 {
-                margin-top: -150px;
-            }
-            
+          
             .btn-primary {
                 border-radius: 1.3rem;
                 color: #fff;

@@ -216,13 +216,11 @@
         <img src="./Image/gem.svg">
     </div>
 
-    <div class="row resume-section" id="Resume">
-       
-                <div class="resume-title">Resume</div>
-                         <iframe src="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:fc8bee7e-4551-329f-8dbc-84458139cef3"></iframe>
-         
-    </div>
-    
+    <div class="resume" id="Resume">
+    <h1>Your Resume</h1>
+    <img id="pdfImage" src="./Image/Anika-mcphee-resume-Nov-2023_Page_1.png" alt="Page 1">
+    <img id="pdfImage" src="./Image/Anika-mcphee-resume-Nov-2023_Page_2.png" alt="Page 2">
+    <button onclick="downloadPDFImage()">Download PDF Image</button>
            
     <div class="container2" id="contact">
         <h2>Contact Me</h2>
@@ -251,11 +249,6 @@
             <button type="submit">Submit</button>
         </form>
     </div>
-    
-</body>
-  
-
-        
     <div class="footer">
         <div class="footer-links">
             <ul class="footer-links">
@@ -273,4 +266,24 @@
     </div>
    
 </footer>
+</body>
+  
+<script>
+    function downloadPDFImage() {
+        // Replace "path/to/page1.jpg" with the actual path to your PDF page
+        var pdfImagePath = "path/to/page1.jpg";
+        
+        // Create a temporary anchor element
+        var downloadLink = document.createElement("a");
+        downloadLink.href = pdfImagePath;
+        downloadLink.download = "pdf_image.jpg"; // Set the desired file name
+
+        // Trigger a click on the anchor element to start the download
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+        document.body.removeChild(downloadLink);
+    }
+</script>
+        
+   
 </html>

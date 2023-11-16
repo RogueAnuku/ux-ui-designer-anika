@@ -177,15 +177,7 @@ img {
         .glass-border.d-flex {
             margin-top: -42px;
         }
-iframe {
 
-    padding-top: 17%;
-    
-    position: absolute;
-    left: 5%;
-    width: 90%;
-    /* height: 1059px; */
-}
 .h2, h2 {
     font-family: cinzel;
     text-align: center;
@@ -198,6 +190,13 @@ iframe {
             color:#F23580;
             text-align: center;
        
+    }
+    .resume button{
+     
+            color: #00BFF0;
+            background-color: black;
+            /* color: black; */
+        
     }
     a {
         font-weight: 500;
@@ -257,7 +256,10 @@ iframe {
     margin-left: auto;
 }
 
-
+.resume {
+    margin-top: -456px;
+    padding: 16%;
+}
 
 .gem-section {
     margin-top: -511px;
@@ -450,11 +452,7 @@ iframe {
     margin-right: auto;
   
  }       
- .gem-section {
-    margin-top: -1424px;
-    position: relative;
-    z-index: -1;
-}
+
 
 .about-section-text {
     margin-left: auto;
@@ -560,40 +558,7 @@ iframe {
 
  
     /* Your existing footer styles */
-    .footer { box-shadow: -1px -7px 7px 1px #00bff0ad;
-        background-color: black;
-        color: #F23580;
-        padding: 20px;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    /* Style for the left-side links */
-    .footer-links {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-    }
-    /* Style for individual links */
-    .footer-links a {
-        color: #F23580;
-        text-decoration: none;
-        margin-right: 20px;
-        transition: text-decoration 0.3s; /* Add a smooth transition effect */
-    }
-    .footer-links a:hover {
-        text-decoration: underline; /* Underline the link on hover */
-        color: #00BFF0; /* Change the link color on hover */
-    }
-    /* Style for the image on the right side */
-    .footer-image {
-        max-width: 180px;
-    }
-    .footer-image p {
-        color: grey;
-        font-size: 12px;
-        margin-top: -50px;
-    }
+  
     
 
 }
@@ -828,28 +793,9 @@ iframe {
             .resume-image {
                 border-radius: 16px;
             }
-    .about-section-title{
-       color: #F23580;
-            font-weight: 500;
-            font-size: 1.3rem;
-      
-    }
-    .row.resume-section {
-        margin-top: -572px;
-        padding-bottom: 8%;
-        justify-content: center;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        margin-right: auto;
-        margin-left: auto;
-    }
-  
+ 
     
-    iframe{
-        width: 90%;
-    }
+ 
     .h2, h2 {
         text-align: center;
         font-family: cinzel;
@@ -857,43 +803,7 @@ iframe {
         color: #F23580;
     }
 
-   
-    
-    .footer { box-shadow: -1px -7px 7px 1px #00bff0ad;
-        background-color: black;
-        color: #F23580;
-        padding: 20px;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    /* Style for the left-side links */
-    .footer-links {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-    }
-    /* Style for individual links */
-    .footer-links a {
-        color: #F23580;
-        text-decoration: none;
-        margin-right: 20px;
-        transition: text-decoration 0.3s; /* Add a smooth transition effect */
-    }
-    .footer-links a:hover {
-        text-decoration: underline; /* Underline the link on hover */
-        color: #00BFF0; /* Change the link color on hover */
-    }
-    /* Style for the image on the right side */
-    .footer-image {
-        max-width: 180px;
-    }
-    .footer-image p {
-        color: grey;
-        font-size: 12px;
-        margin-top: -50px;
-    }
-   
+
     
         }
        @media  (min-width: 1200px ) {
@@ -1024,9 +934,8 @@ iframe {
         .glass-border.d-flex {
             /* padding-bottom: 38%; */
             margin-top: -52px;
-            /* height: 102%; */
+            height: 124%;
         }
-      
         /* Your existing jumbotron styles remain the same */
         
         /* Style for the content inside the glass border */
@@ -1101,6 +1010,12 @@ iframe {
                     color:#F23580;
                     text-align: center;
                
+            }
+        
+            .gem-section {
+                margin-top: -2363px;
+                position: relative;
+                z-index: -1;
             }
          
            

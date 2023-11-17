@@ -106,16 +106,14 @@ img {
 
 /* Style for the content inside the glass border */
 
-.zoom-on-hover {
-    transition: transform 0.2s ease-in-out; /* Smooth transition on hover */
-}
+
 
 .zoom-on-hover {
-    padding-top: 45%;
+    margin-top: 22%;
+    /* padding-top: 45%; */
     /* padding: 6%; */
     transition: transform 0.2s ease-in-out;
 }
-
 
    
 
@@ -147,8 +145,8 @@ img {
             padding-top: 10%;
         }
     
-
         .glass-border.d-flex {
+            padding-bottom: 6%;
             margin-top: -42px;
         }
         .h1, h1 {
@@ -254,7 +252,9 @@ img {
         color: white;
 }
 
-
+.container2 {
+    width: 100%;
+}
 /* Styles for form elements within .container2 */
 .container2 .form-group label {
     font-weight: bold;
@@ -381,8 +381,11 @@ img {
 }
 
 .border-image {
-    padding-bottom: 20px;
-    height: 100%;
+    padding-bottom: 10px;
+    width: 100%;
+    margin-left: auto;
+    /* padding-bottom: 20px; */
+    height: 86%;
 }
 .border-image-container {
     margin-top: -10px;
@@ -509,6 +512,12 @@ img {
             /* padding: 10px 20px; */
             cursor: pointer;
         }
+        .h2, h2 {
+            font-family: cinzel;
+            text-align: center;
+            font-size: 1.4rem;
+            color: #F23580;
+        }
             }
         
         
@@ -619,7 +628,7 @@ img {
     padding-bottom: 14%;
 }    
 .gem-section {
-    margin-top: -2141px;
+    margin-top: -1518px;
     position: relative;
     z-index: -1;
 }

@@ -148,12 +148,14 @@ img {
         top: 59px;
     }
     .project-text video {
-        margin-left: 10%;
-        margin-top: -65px;
-        width: 80%;
+     
+        width: 100%;
     }
     .project-text p {
-        font-size: .85rem;
+       
+            padding: 8%;
+            color: white;
+        
  
     }
     .project-text img {
@@ -179,13 +181,13 @@ img {
             font-weight: 500;
             text-align: center;
         }
-.h2, h2 {
-    font-family: cinzel;
-    text-align: center;
-    font-size: 1.2rem;
-    color: #F23580;
-}
-    .resume-title {
+        .h2, h2 {
+            font-weight: 400;
+            font-family: cinzel;
+            text-align: center;
+            font-size: 1.4rem;
+            color: #F23580;
+        } .resume-title {
 
             font-size: 2rem;
             color:#F23580;
@@ -219,11 +221,7 @@ img {
     }
 
  
-    .border-image {
-        padding-bottom: 137%;
-        height: 134%;
-    }
-
+ 
 
 /* Add this rule to make the remaining column take full width */
 .remaining-column {
@@ -380,21 +378,15 @@ img {
     color: #F23580;
 }
 
+
 .border-image {
-    padding-bottom: 10px;
     width: 100%;
-    margin-left: auto;
-    /* padding-bottom: 20px; */
-    height: 86%;
-}
-.border-image-container {
-    margin-top: -10px;
+    height: 64%;
 }
 
-
-.border-image-container {
-    width: 100%;
-    height: 1340px;
+.glass-border.d-flex {
+    padding-bottom: 0%;
+    margin-top: -64px;
 }
        
 
@@ -488,10 +480,7 @@ img {
             /* width: 57%; */
             padding-top: 10%;
         }
-        .border-image {
-            padding-bottom: 667px;
-            height: 146%;
-        }
+     
         .project-text video {
             padding-bottom: 6%;
             margin-right: auto;
@@ -499,6 +488,10 @@ img {
             margin-top: 2%;
             /* width: 100%; */
             /* margin-left: 0%; */
+        }
+       .border-image {
+            width: 100%;
+            height: 100%;
         }
         .img-1 {
             margin-top: -89px;
@@ -512,7 +505,9 @@ img {
             padding: 5%;
             background-color: white;
         }
-         
+        .col-md-6 {
+            width: 50%;
+        }
         .h2, h2 {
             font-family: cinzel;
             text-align: center;
@@ -533,6 +528,18 @@ img {
         .zoom-on-hover {
         margin-top: 2%;
             transition: transform 0.2s ease-in-out;
+        }
+        .resume {
+          
+                margin-top: -538px;
+            
+        }
+        #contact {
+            padding-bottom: 20%;
+            margin-top: 38%;
+            background-color: black;
+            /* padding: 40px; */
+            color: white;
         }
         
             }
@@ -637,24 +644,16 @@ img {
     z-index: 1;
 }
 .glass-border.d-flex {
-    padding-bottom: 16%;
+
     margin-top: -52px;
 }
-.border-image {
-    height: 108%;
-    padding-bottom: 14%;
-}    
+
 .gem-section {
     margin-top: -1132px;
     position: relative;
     z-index: -1;
 }
-#contact {
-    margin-top: 10%;
-    background-color: black;
-    padding: 40px;
-    color: white;
-}
+
 .resume {
     margin-right: auto;
     margin-left: auto;
@@ -662,15 +661,16 @@ img {
     padding: 12%;
     margin-top: -1254px;
 }
-
-        .project-text img {
-            padding: 6%;
-            /* padding-right: 4%; */
-            padding-left: -2%;
-            justify-content: center;
-            /* padding-top: 5%; */
-            /* padding: 5%; */
-        }
+.project-text {
+    font-size: 1.1rem;
+    color: white;
+    /* padding: 20px; */
+    /* margin-top: 2%; */
+    position: absolute;
+    top: 66px;
+    /* left: 20px; */
+}
+      
         .project-header {
             /* margin-top: -60px; */
             padding-bottom: 8%;
@@ -688,20 +688,7 @@ img {
             text-align: center;
             color: #F23580;
         }
-        .project-text {
-            margin-right: auto;
-            font-weight: 200;
-            padding-right: 2%;
-            margin-left: auto;
-            font-size: 1.1rem;
-            padding: 10%;
-            color: white;
-            /* padding: 20px; */
-            /* margin-top: 2%; */
-            position: absolute;
-            top: 28px;
-            /* left: 20px; */
-        }
+    
   
         
         .project-text img {
@@ -756,6 +743,12 @@ img {
     .about-img img{
         width: 100%;
     }  
+    .border-image {
+      
+            width: 100%;
+            height: 80%;
+        
+    }
             .resume-image {
                 border-radius: 16px;
             }
@@ -763,21 +756,7 @@ img {
      
         }
         @media screen and (min-width: 1200px) {
-        body {
-            margin: 0;
-            /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
-            font-size: 1rem;
-            font-weight: 400;
-            line-height: 1.5;
-            color: #212529;
-            text-align: left;
-          
-        
-        background-color: black;
-        } 
-
-     
-     
+               
             .menu-icon-img img {
                 width: 46px;
             }
@@ -835,23 +814,13 @@ img {
         min-height: 100%;
         position: relative;
     }
-        .row.about-me.zoom-on-hover {
-            padding: 0%;
-        }
-        .jumbotron-content {
-            position: relative;
-            z-index: 1;
-          
-        }
+      
         .img-1 {
             z-index: 4;
             margin-top: -150px;
         }
         
-        img {
-            max-width: 100%; /* Ensure the image doesn't exceed its container width */
-            height: auto; /* Maintain the image's aspect ratio */
-        }
+       
         .jumbotron {
             /* margin-top: -100px; */
             background-color: #000;
@@ -879,37 +848,19 @@ img {
             color: #00BFF0;
             font-size: 1.75rem;
         }
-        .border-image {
-            width: 110%;
-            height: 80%;
-            /* padding-bottom: 14%; */
-        }
-        .glass-border.d-flex {
-            /* padding-bottom: 6%; */
-            margin-top: -42px;
-        }
-       
-        /* Your existing jumbotron styles remain the same */
-        
-        /* Style for the content inside the glass border */
      
-        .zoom-on-hover {
-            transition: transform 0.2s ease-in-out; /* Smooth transition on hover */
-        }
-        
-        .zoom-on-hover:hover {
-            transform: scale(1.1); /* Increase the size on hover (zoom) */
-        }
-      
-      
-        .project-header {
-            font-weight: 500;
-          
-            font-size: 3rem;
-            text-align: center;
+        .border-image {
+            width: 100%;
+            height: 63%;
+        }       
+        .h1, h1 {
+            padding: 8%;
+            margin-left: auto;
+            margin-right: auto;
             color: #F23580;
-            position: relative;
-            z-index: 2;
+            font-size: 3rem;
+            font-weight: 500;
+            text-align: center;
         }
         .project-text {
             color: white;
@@ -944,22 +895,6 @@ img {
         }
            
            
-                .border-image-container {
-                    position: relative;
-                
-                }
-        
-                /* Default styles for the border image */
-             
-                /* Styles for the project text */
-           
-           
-          
-         
-                a {
-                    color: white;
-                    background-color: transparent;
-                }
             
                 .resume-title {
 
@@ -969,36 +904,9 @@ img {
                
             }
         
-            .gem-section {
-                margin-top: -2363px;
-                position: relative;
-                z-index: -1;
-            }
          
            
-       
-            .col-md-6 {
-                padding-right: 3%;
-                padding-left: 3%;
-               
-                -ms-flex: 0 0 50%;
-                flex: 0 0 50%;
-            }
-           
-                .text-field {
-                    padding-bottom: 5%;
-                    color: #000;
-                    font-size: 1.3rem;
-                }
-             
-                
-                .about-section-text {
-                    width: 100%;
-                    font-size: 1.1rem;
-                    border-radius: 16px;
-                    padding: 5%;
-                    background-color: white;
-                }
+        
                 .about-section-title {
                     font-size: 3rem;
                     color: #F23580;
@@ -1019,266 +927,9 @@ img {
                 
                
           }
-          @media screen and (min-width: 1920px){
-            body {
-                margin: 0;
-                /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
-                font-size: 1rem;
-                font-weight: 400;
-                line-height: 1.5;
-                color: #212529;
-                text-align: left;
-              
-            
-            background-color: black;
-            } 
-    
-         
-         
-                .menu-icon-img img {
-                    width: 46px;
-                }
-                .bg-dark {
-                    background-color: #000 !important;
-                }
-                 .menu-icon-img {   width: 38px}
-             
-             
-                 .navbar {
-                box-shadow: -1px 1px 14px 0px #00bFF0;
-             
-                width: 100%;
-                top: 0;
-                left: 0;
-                z-index: 1030;
-                 }
-                 .navbar-brand {
-        display: inline-block;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        margin-right: 1rem;
-        font-size: 1.25rem;
-        line-height: inherit;
-        white-space: nowrap;
-    }
-                 .navbar-name {
-                /* font-family: cinzel; */
-                font-size: 1.2rem;
-                color: #F23580;
-                 }
-                 .navbar-dark .navbar-toggler {
-                color: rgba(255,255,255,.5);
-                border-color: #000;/* border-color: rgba(255,255,255,.1); */
-                 }
-                 .navbar-nav .nav-item .nav-link {
-                font-weight: 500;
-                font-size: 1.1rem;
-                color:#6e7175; /* Default link color */
-                transition: color 0.3s; /* Add a smooth transition for color change */
-                 }
-                 .navbar-nav .nav-item .nav-link:hover {
-                color: #00BFF0; /* Change the color to your desired hover color */
-                 }
-                 .navbar-expand-lg .navbar-collapse {
-                display: -ms-flexbox!important;
-                display: flex!important;
-                -ms-flex-preferred-size: auto;
-                flex-basis: auto;
-                justify-content: flex-end;
-                 }
-           
-       
-           .container {
-            min-height: 100%;
-            position: relative;
-        }
-            .row.about-me.zoom-on-hover {
-                padding: 0%;
-            }
-            .jumbotron-content {
-                position: relative;
-                z-index: 1;
-              
-            }
-            .img-1 {
-                z-index: 4;
-                margin-top: -150px;
-            }
-            
-            img {
-                max-width: 100%; /* Ensure the image doesn't exceed its container width */
-                height: auto; /* Maintain the image's aspect ratio */
-            }
-            .jumbotron {
-                /* margin-top: -100px; */
-                background-color: #000;
-            }
-         
-            .jumbotron-overlay {
-                width: 100%;
-                position: absolute;
-                top: 10%;
-                /* left: 50%; */
-                /* transform: translate(-50%, -106%); */
-                text-align: center;
-                color: white;
-                /* background-color: rgba(0, 0, 0, 0.5); */
-                padding: 20px;
-            }
-            .jumbotron-title {
-                margin-top: 3%;
-                font-weight: 200;
-                font-family: 'Verdana Pro', sans-serif;
-                font-size: 3.2rem;
-                color: white;
-            }
-            .jumbotron-text {
-                color: #00BFF0;
-                font-size: 1.75rem;
-            }
-            .border-image {
-                width: 110%;
-                height: 80%;
-                /* padding-bottom: 14%; */
-            }
-            .glass-border.d-flex {
-                /* padding-bottom: 6%; */
-                margin-top: -42px;
-            }
-           
-            /* Your existing jumbotron styles remain the same */
-            
-            /* Style for the content inside the glass border */
-         
-            .zoom-on-hover {
-                transition: transform 0.2s ease-in-out; /* Smooth transition on hover */
-            }
-            
-            .zoom-on-hover:hover {
-                transform: scale(1.1); /* Increase the size on hover (zoom) */
-            }
-          
-          
-            .project-header {
-                font-weight: 500;
-              
-                font-size: 3rem;
-                text-align: center;
-                color: #F23580;
-                position: relative;
-                z-index: 2;
-            }
-            .project-text {
-                color: white;
-                font-weight: 400;
-                /* margin-left: auto; */
-                /* margin-right: auto; */
-                justify-content: center;
-                position: absolute;
-                /* top: 1%; */
-                /* left: 4%; */
-                /* width: 93%; */
-                padding: 8%;
-                /* background: white; */
-                font-size: 1.1rem;
-            }
-            .project-text img {
-                width: 100%;
-                padding-bottom: 6%;
-                padding-left: 6%;
-                /* display: initial; */
-                justify-content: center;
-                /* margin-left: auto; */
-                /* width: 57%; */
-                padding-top: 10%;
-            }
-      
-          
-            .jumbotron-content {
-                margin-top: 4%;
-                position: relative;
-                z-index: 1;
-            }
-               
-               
-                    .border-image-container {
-                        position: relative;
-                    
-                    }
-            
-                    /* Default styles for the border image */
-                 
-                    /* Styles for the project text */
-               
-               
-              
-             
-                    a {
-                        color: white;
-                        background-color: transparent;
-                    }
-                
-                    .resume-title {
-    
-                        font-size: 2.6rem;
-                        color:#F23580;
-                        text-align: center;
-                   
-                }
-            
-                .gem-section {
-                    margin-top: -2363px;
-                    position: relative;
-                    z-index: -1;
-                }
-             
-               
-           
-                .col-md-6 {
-                    padding-right: 3%;
-                    padding-left: 3%;
-                   
-                    -ms-flex: 0 0 50%;
-                    flex: 0 0 50%;
-                }
-               
-                    .text-field {
-                        padding-bottom: 5%;
-                        color: #000;
-                        font-size: 1.3rem;
-                    }
-                 
-                    
-                    .about-section-text {
-                        width: 100%;
-                        font-size: 1.1rem;
-                        border-radius: 16px;
-                        padding: 5%;
-                        background-color: white;
-                    }
-                    .about-section-title {
-                        font-size: 3rem;
-                        color: #F23580;
-                    }
-                    
-                    .row.resume-section {
-                        padding-right: 8%;
-                        padding-left: 8%;
-                        /* margin-left: auto; */
-                        padding-bottom: 26%;
-                        /* height: 100%; */
-                        margin-top: -905px;
-                        /* border-radius: 16px; */
-                        /* padding: 5%; */
-                        background-color: transparent;
-                    }
-                 
-                    
-                   
-              }
+        
 
-
-          }
+          
             
           
  

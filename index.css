@@ -927,7 +927,26 @@ img {
                 
                
           }
-        
+          @media  (min-width:2050px) {
+            .row {
+                /* margin-right: 0px; */
+                /* margin-left: 0px; */
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-wrap: wrap;
+                /* flex-wrap: wrap; */
+                justify-content: center;
+            }
+           .jumbotron-content img {
+                margin-top: -158px;
+                box-shadow: -1px 32px 59px #00bFF0;
+            }
+            .img-1 {
+                z-index: 4;
+                margin-top: -234px;
+            }
+           
+          }
 
           
             

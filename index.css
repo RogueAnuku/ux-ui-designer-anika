@@ -945,6 +945,15 @@ img {
                 z-index: 4;
                 margin-top: -234px;
             }
+            .project-text {
+              
+                    margin-top: 20%;
+                }
+                .project-text p {
+                    font-family: sans-serif;
+                    font-size: 1.9rem;
+                }
+           
            
           }
 

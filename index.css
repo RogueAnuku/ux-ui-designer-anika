@@ -63,9 +63,7 @@
     }
 
     
-.col-md-6 p {
-    color: white;
-}
+
      .row {
         margin-right: 0px;
         margin-left: 0px;
@@ -123,31 +121,18 @@ img {
         padding-top: 42%;
         box-shadow: -1px 32px 59px #00bFF0;
    
-}
-
-.col-md-6 {
-    padding: 6%
-    /* padding: 2%; */
-}
-
-
-
-.Projects {
+} 
+.col-md-12 {
+    border-radius: 16px;
   
         padding: 4%;
-        margin-left: auto;
         margin-right: auto;
-    
-}
-
-    .project-text video {
-     
-        width: 100%;
+        margin-left: auto;
     }
 
         .h1, h1 {
-            padding-bottom: 30%;
-            /* padding: 54%; */
+          
+        
             margin-left: auto;
             margin-right: auto;
             color: #F23580;
@@ -161,13 +146,18 @@ img {
             text-align: center;
             font-size: 1.4rem;
             color: #F23580;
-        } .resume-title {
+        }
+        #About.row {
+            padding: 4%;
+        }
+         .resume-title {
 
             font-size: 2rem;
             color:#F23580;
             text-align: center;
        
     }
+
     .resume  {
         margin-left: auto;
         margin-right: auto;
@@ -344,13 +334,6 @@ img {
 
 
    
-        .project-title {
-            font-size: 1.4rem;
-            font-weight: 500;
-            text-align: center;
-            color: #F23580;
-        }
-     
       
         .project-text video {
             margin-top: 2%;
@@ -391,6 +374,24 @@ img {
             padding-top: 10%;
             box-shadow: -1px 32px 59px #00bFF0;
         }
+        .jumbotron-overlay {
+            /* font-size: 2.1rem; */
+            width: 100%;
+            position: absolute;
+            top: 4%;
+            /* left: 50%; */
+            /* transform: translate(0%, 95%); */
+            text-align: center;
+            color: white;
+            /* background-color: rgba(0, 0, 0, 0.5); */
+            padding: 20px;
+        }
+        .jumbotron-title {
+            font-weight: 500;
+            font-family: 'Verdana Pro', sans-serif;
+            font-size: 2.2rem;
+            color: white;
+        }
         .img-1 {
             margin-top: -89px;
             z-index: 4;
@@ -412,18 +413,7 @@ img {
             font-size: 1.4rem;
             color: #F23580;
         }
-        .project-text img {
-            padding-right: 6%;
-            width: 100%;
-            padding-bottom: 6%;
-            padding-left: 6%;
-            /* display: initial; */
-            justify-content: center;
-            /* margin-left: auto; */
-            /* width: 57%; */
-            padding-top: 10%;
-        }
-   
+  
         .resume {
           
                 margin-top: -538px;
@@ -510,36 +500,10 @@ img {
 }
 
  
-        .project-header {
-            /* margin-top: -60px; */
-            padding-bottom: 8%;
-            font-family: 'Verdana Pro', sans-serif;
-            /* margin-top: -143px; */
-            /* padding-bottom: 20px; */
-            font-weight: 500;
-            font-size: 1.8rem;
-            text-align: center;
-            color: #F23580;
-        }
-        .project-title {
-            font-size: 1.4rem;
-            font-weight: 500;
-            text-align: center;
-            color: #F23580;
-        }
-    
+
   
         
-        .project-text img {
-            width: 100%;
-            padding-bottom: 6%;
-            padding-left: 6%;
-            /* display: initial; */
-            justify-content: center;
-            /* margin-left: auto; */
-            /* width: 57%; */
-            padding-top: 10%;
-        }
+      
         .resume-title {
           color: #F23580;
                 font-weight: 500;
@@ -616,12 +580,9 @@ img {
         
        
      
-        .col-md-6 {
-            padding-bottom: 8%;
-        }
-  
+      
         .h1, h1 {
-            padding: 8%;
+       
             margin-left: auto;
             margin-right: auto;
             color: #F23580;
@@ -636,17 +597,7 @@ img {
             color: #F23580;
         }
 
-        .project-text img {
-            width: 100%;
-            padding-bottom: 6%;
-            padding-left: 6%;
-            /* display: initial; */
-            justify-content: center;
-            /* margin-left: auto; */
-            /* width: 57%; */
-            padding-top: 10%;
-        }
-  
+   
       
         .jumbotron-content {
             margin-top: 4%;
@@ -690,11 +641,7 @@ img {
                     /* padding: 5%; */
                     background-color: transparent;
                 }
-                .Projects {
-                    padding: 10%;
-                    margin-left: auto;
-                    margin-right: auto;
-                }
+             
                 
                 
                
@@ -714,14 +661,7 @@ img {
                 z-index: 4;
                 margin-top: -234px;
             }
-            .project-text {
-              
-                    margin-top: 20%;
-                }
-                .project-text p {
-                    font-family: sans-serif;
-                    font-size: 1.9rem;
-                }
+         
                 .h1, h1 {
                   
                     /* padding: 54%; */
@@ -755,11 +695,7 @@ img {
                     border-radius: 5.25rem;
                     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
                 }
-                .col-md-6 p{
-                    font-size: 1.8rem;
-                    color: white;
-                    padding: 0%;
-                }
+            
                 #contact form {
                     /* max-width: 600px; */
                     margin: 0 auto;

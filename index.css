@@ -296,11 +296,10 @@ img {
     padding: 20px;
 }
 .jumbotron-title {
-    font-weight: 500;
-    font-family: 'Verdana Pro', sans-serif;
-    font-size: 1.2rem;
-    color: white;
-}
+font-weight: 300;
+font-family: 'Verdana Pro', sans-serif;
+font-size: 2rem;
+color: white;}
 
 .jumbotron-text {
     color: #00BFF0;
@@ -567,29 +566,19 @@ img {
      @media (min-width:768px)  {
       
         .jumbotron-content img {
-            padding-top: 108;
+            padding-top: 14%;
             box-shadow: -1px 32px 59px #00bFF0;
         }
         .jumbotron-overlay {
             width: 100%;
             position: absolute;
-            top: 188px;
-            /* left: 50%; */
-            /* transform: translate(0%, 111%); */
+        
             text-align: center;
             color: white;
             /* background-color: rgba(0, 0, 0, 0.5); */
             padding: 20px;
         }
-        .jumbotron-title {
-            font-weight: 500;
-            font-family: 'Verdana Pro', sans-serif;
-            font-size: 2.2rem;
-            color: white;
-        }
-        .jumbotron-text {
-            margin-top: -10px;
-        }
+      
         .img-1 {
             margin-top: -89px;
             z-index: 4;
@@ -660,23 +649,13 @@ img {
     margin-top: -100px;
     background-color: #000;
 }
-.jumbotron-overlay {
-    width: 100%;
-    position: absolute;
-    /* left: 50%; */
-    /* transform: translate(0%, 22%); */
-    text-align: center;
-    color: white;
-    /* background-color: rgba(0, 0, 0, 0.5); */
-    padding: 20px;
-    margin-top: -110px;
-}
+
 .jumbotron-title {
-  
-    font-weight: 300;
-    font-family: 'Verdana Pro', sans-serif;
-    font-size: 2.6rem;
-    color: white;
+margin-top: -68px;
+font-weight: 300;
+font-family: 'Verdana Pro', sans-serif;
+font-size: 3.6rem;
+color: white;
 }
 .jumbotron-text {
     
@@ -685,7 +664,7 @@ img {
 }
 
 .jumbotron-content {
-    margin-top: 10%;
+    margin-top: 6%;
     position: relative;
     z-index: 1;
 }

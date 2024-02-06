@@ -660,7 +660,7 @@ color: white;}
 margin-top: -68px;
 font-weight: 300;
 font-family: 'Verdana Pro', sans-serif;
-font-size: 3.6rem;
+font-size: 3rem;
 color: white;
 }
 .jumbotron-text {
@@ -789,7 +789,7 @@ color: white;
         }
       
         .jumbotron-content {
-            margin-top: 0%;
+            margin-top: 6%;
             position: relative;
             z-index: 1;
         }
@@ -798,7 +798,7 @@ color: white;
             width: 100%;
             position: absolute;
             /* left: 50%; */
-            transform: translate(0%, 50%);
+            transform: translate(0%, 10%);
             text-align: center;
             color: white;
             /* background-color: rgba(0, 0, 0, 0.5); */
@@ -807,9 +807,15 @@ color: white;
         .jumbotron-text {
             font-weight: 100;
             color: #00BFF0;
-            font-size: 2.5rem;
+            font-size: 2.2rem;
         }
-            
+        .jumbotron-title {
+            margin-top: -94px;
+            font-weight: 300;
+            font-family: 'Verdana Pro', sans-serif;
+            font-size: 3rem;
+            color: white;
+        }
                 .resume-title {
 
                     font-size: 2.6rem;

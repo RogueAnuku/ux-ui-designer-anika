@@ -423,52 +423,225 @@ color: white;}
     color: white;
     border-radius: 58px;
 }
-#contact {
-    background-color: black; /* Set background color */
-    padding: 40px; /* Add some padding to the section */
-    
-    color: white; /* Set text color */
-}
-
-#contact h2 {
-    color:#F23580; /* Set heading color */
-}
-
-#contact .text-field {
-    margin-bottom: 20px; /* Add margin to the text field */
-}
-
-#contact form {
-    max-width: 600px; /* Set the maximum width of the form */
-    margin: 0 auto; /* Center-align the form */
-}
-
-#contact form label {
-    display: block; /* Display labels as block elements */
-    margin-bottom: 8px; /* Add margin to labels */
-}
-
-#contact form input,
-#contact form textarea {
-    width: 100%; /* Make input fields and textarea take up 100% width */
-    padding: 8px; /* Add padding to input fields and textarea */
-    margin-bottom: 16px; /* Add margin to input fields and textarea */
-}
-
-#contact form button {
-    padding: 1%;
+body {
+    font-family: calibri;
+    padding: 0;
+    margin: 0;
+    margin: ;
+    padding: ;
+    background-color: black;
+  }
+  
+  
+    .loginBox {
+        margin: 1% auto 0% auto;
+        padding: 165px 54px 22px 80px;
+        width: 80%;
+        height: 50%;
+        box-sizing: border-box;
+        background: rgba(0, 0, 0, 0.5);
+    }
+  h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    color: #f23580;
+  }
+  
+  .loginBox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .loginBox input {
     width: 100%;
-    border-radius: 5.25rem;
-    background-color: #F23580;
-    color: #fff;
+    height: 20px;
+    margin: 0 0 20px 0;
+  }
+  
+  .loginBox input[type="text"],
+  .loginBox input[type="password"],
+  .loginBox input[type="email"],
+  .loginBox input[type="date"] {
     border: none;
-    /* padding: 10px 20px; */
-    cursor: pointer;}
-
-#contact form button:hover {
-    background-color: white; /* Set button background color on hover */
-}
-
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  ::placeholder {
+    color: white;
+    opacity: 0.1;
+    text-align: center;
+  }
+  
+  .loginBox input[type="submit"] {
+    border: 1px solid;
+    height: 40px;
+    color: violet;
+    background-color: transparent;
+  }
+  
+  .loginBox input[type="submit"]:hover {
+    color: pink;
+    border: 20px solid;
+  }
+  
+  
+  form a {width: 100%;
+    color: black;
+    text-decoration: none;
+  }
+  :root {
+    --red: hsl(0, 100%, 80%);
+    --yellow: hsl(62, 100%, 80%);
+    --green: hsl(122, 100%, 80%);
+    --blue: hsl(179, 100%, 80%);
+    --purple: hsl(238, 100%, 80%);
+    --pink: hsl(302, 100%, 80%);
+  
+    --fontPoppins: "Poppins", sans-serif;
+  }
+  
+  [type="submit"],
+  [type="reset"],
+  button,
+  html [type="button"] {
+    -webkit-appearance: button;
+    text-transform: none;
+  }
+  
+  .glowButtonWrapper {
+    position: relative;
+    margin: 1.25em auto;
+    padding: 0;
+    display: table;
+    transition: all 150ms linear;
+  }
+  
+  .glowButtonWrapper:hover {
+    transform: scale(1.15);
+  }
+  
+  .glowButtonWrapper:active {
+    transform: scale(0.95);
+  }
+  
+  .glowButtonWrapper .glowButton {
+    --angle: 0deg;
+    --buttonBorder: 4px;
+    --buttonBorderRadius: 2.25em;
+    --buttonBorderRadiusBefore: 3em;
+  
+    position: relative;
+    display: flex;
+    padding: 0.875em 2.1em;
+    gap: 0.875em;
+    font-size: 1em;
+    align-items: center;
+    border-radius: var(--buttonBorderRadius);
+    font-weight: 160;
+    border: 0;
+    /* overflow: hidden; */
+    transition: background 3ms linear;
+  
+    color: hsl(0, 0%, 98%);
+    font-family: sans-serif;
+  
+    background: hsl(0 0% 0% / 0%);
+  
+    /* border: 2px solid transparent; */
+    box-shadow: 0 0 3px hsl(0 0% 0% / 20%), 0 1px 6px hsl(0 0% 0% / 15%),
+      0 4px 8px hsl(0 0% 0% / 13%);
+    z-index: 1;
+  }
+  
+  .glowButtonWrapper:hover .glowButton {
+    transition: background 3ms linear;
+  
+    background: conic-gradient(
+        in hsl longer hue from var(--angle),
+        hsl(0, 100%, 80%) 0 0
+      )
+      border-box;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  
+    box-shadow: 0 0 3px hsl(0 35% 80% / 65%), 0 1px 6px hsl(60 15% 80% / 50%),
+      0 4px 8px hsl(120 48% 80% / 30%), 0 5px 11px hsl(5 20% 80% / 20%);
+  
+    mix-blend-mode: color-dodge;
+  
+    animation: angle 2s linear infinite;
+  }
+  
+  @property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+  
+  /* target only Firefox */
+  @-moz-document url-prefix() {
+    .glowButtonWrapper .glowButton {
+      transition: all 250ms linear;
+      background: transparent;
+    }
+  
+    .glowButtonWrapper:hover .glowButton {
+      --angleFX: 0deg;
+      /* transition: background 3ms linear; */
+      transition: background 3ms linear;
+      background: conic-gradient(
+          from var(--angleFX) at 50% 50%,
+          var(--red),
+          var(--yellow),
+          var(--green),
+          var(--blue),
+          var(--purple),
+          var(--pink),
+          var(--red)
+        )
+        border-box;
+  
+      animation: angleFX 2s linear infinite;
+    }
+  }
+  
+  .glowButtonWrapper .glowButton:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*
+      width: calc(100% - 7.5px);
+      height: calc(100% - 7.5px);
+      */
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    padding: 0;
+  
+    background: hsl(233 12% 13% / 1) padding-box;
+    background: linear-gradient(
+        to bottom,
+        hsl(228 5% 20% / 1),
+        hsl(228 4% 25% / 1)
+      )
+      padding-box;
+    border: 1px solid hsl(210 14% 9% / 60%);
+  
+    border-radius: var(--buttonBorderRadiusBefore);
+    z-index: -1;
+  }
+  
+  
 
 .footer {
     position: absolute;

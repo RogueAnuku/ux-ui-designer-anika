@@ -913,6 +913,11 @@ color: white;
             .resume-image {
                 border-radius: 16px;
             }
+            .img-1 {
+                margin-top: -30px;
+                /* margin-top: 2%; */
+                z-index: 4;
+            }
      
      
         }

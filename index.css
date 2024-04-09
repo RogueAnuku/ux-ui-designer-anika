@@ -425,8 +425,8 @@ body {
     font-family: calibri;
     padding: 0;
     margin: 0;
-    margin: ;
-    padding: ;
+    margin:0 ;
+    padding:0 ;
     background-color: black;
   }
   
@@ -687,7 +687,7 @@ body {
  @media  (min-width:576px)   {
  
     .jumbotron-content img {
-        padding-top: 30%;
+        padding-top: -28px;
         box-shadow: -1px 32px 59px #00bFF0;
     }
 

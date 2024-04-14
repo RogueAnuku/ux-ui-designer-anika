@@ -685,9 +685,10 @@ body {
 }
  
  @media  (min-width:576px)   {
+    
  
     .jumbotron-content img {
-        padding-top: -28px;
+        padding-top: 18%;
         box-shadow: -1px 32px 59px #00bFF0;
     }
 
@@ -743,7 +744,7 @@ body {
      @media (min-width:768px)  {
       
         .jumbotron-content img {
-            padding-top: 14%;
+            padding-top: 8%;
             box-shadow: -1px 32px 59px #00bFF0;
         }
         .jumbotron-overlay {

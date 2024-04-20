@@ -1,3 +1,6 @@
+
+
+
 :root {
 	--red: hsl(0, 100%, 80%);
 	--yellow: hsl(62, 100%, 80%);
@@ -249,7 +252,7 @@ body {
      }
      .navbar-nav .nav-item .nav-link {
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color:#6e7175; /* Default link color */
     transition: color 0.3s; /* Add a smooth transition for color change */
      }
@@ -260,9 +263,9 @@ body {
         color: #F23580; /* Change this to the desired color */
     }
 
-    
+   
 
-     .row {
+     .row {padding: 6%;
         margin-right: 0px;
         margin-left: 0px;
         display: -ms-flexbox;
@@ -381,7 +384,11 @@ color: white;}
         transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     }
 
- 
+ #About.row {
+    margin-top: 10%;
+    padding: 0%;
+    padding-bottom: 10%;
+}
  
 
 /* Add this rule to make the remaining column take full width */
@@ -838,7 +845,7 @@ color: white;
 }
 
 .jumbotron-content {
-    margin-top: 6%;
+  
     position: relative;
     z-index: 1;
 }
@@ -1020,8 +1027,8 @@ color: white;
           }
           @media  (min-width:2050px) {
             .row {
-                /* margin-right: 0px; */
-                /* margin-left: 0px; */
+                 margin-right: 0px; 
+                 margin-left: 0px; 
                 display: -ms-flexbox;
                 display: flex;
                 -ms-flex-wrap: wrap;

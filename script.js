@@ -1,4 +1,17 @@
 document.addEventListener('DOMContentLoaded', function () {
+  const text = document.querySelector('.animated-text');
+const textToAnimate = "UX/UI Designer";
+let index = 0;
+
+function typeEffect() {
+  text.textContent += textToAnimate[index];
+  index++;
+  if (index > textToAnimate.length - 1) {
+    clearInterval(interval); 
+  }
+}
+
+const interval = setInterval(typeEffect, 100);
     const contactForm = document.getElementById('contactForm');
 
     contactForm.addEventListener('submit', function (event) {

@@ -48,7 +48,9 @@
   }
   
   
-  h3 {       margin-right: auto;
+  h3 {    
+    z-index: 1;
+       margin-right: auto;
     margin-left: auto; 
     
     animation: lights 5s 750ms linear infinite;
@@ -275,10 +277,7 @@ body {
         min-height: 100%;
         position: relative;
     }
-    body, h1, h2,  p, div {
-        margin: 0;
-        padding: 0;
-    }
+  
     
     .menu-icon-img img {
         width: 46px;
@@ -288,7 +287,7 @@ body {
     
     
      .navbar {
-    box-shadow: -1px 1px 14px 0px #00bFF0;
+   
     background-color: #000 !important;
     width: 100%;
     top: 0;
@@ -322,8 +321,12 @@ body {
         width: 100%;
     }
 
+  .row.hero-container p {
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
 
-   
+  }
 
      .row {
         margin-right: 0px;
@@ -332,6 +335,7 @@ body {
         display: flex;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        flex-direction: column;
     }
 
 
@@ -722,6 +726,11 @@ body {
 }
  
  @media  (min-width:576px)   {
+    .hero-container {
+        margin-top: 20%;
+        position: relative;
+        width: 100%;
+    }
     
     .hero-container img {
   
@@ -779,20 +788,10 @@ body {
     
      @media (min-width:768px)  {
       
-        .jumbotron-content img {
-            padding-top: 8%;
-            box-shadow: -1px 32px 59px #00bFF0;
-        }
-        .jumbotron-overlay {
+        .hero-container img {
+            margin-top: -135px;
             width: 100%;
-            position: absolute;
-        
-            text-align: center;
-            color: white;
-            /* background-color: rgba(0, 0, 0, 0.5); */
-            padding: 20px;
         }
-      
         .img-1 {
             margin-top: -89px;
             z-index: 4;
@@ -848,34 +847,20 @@ body {
         } 
           
           
-     
+        .hero-container {
+            margin-top: 12%;
+            position: relative;
+            width: 100%;
+        } 
 
-.jumbotron {
-    margin-top: -100px;
-    background-color: #000;
-}
 
-.jumbotron-title {
-margin-top: -68px;
-font-weight: 300;
-font-family: 'Verdana Pro', sans-serif;
-font-size: 3rem;
-color: white;
-}
-.jumbotron-text {
-    
-    color: #00BFF0;
-    font-size: 1.1rem;
+.hero-container img {
+    margin-top: -150px;
 }
 
-.jumbotron-content {
-  
-    position: relative;
-    z-index: 1;
-}
-.jumbotron-content img {
-    padding-top: 0%;
-    box-shadow: -1px 32px 59px #00bFF0;
+.h3, h3 {
+    font-weight: 300;
+    font-size: 6rem;
 }
 
 .gem-section {

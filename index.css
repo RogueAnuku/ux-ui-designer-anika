@@ -48,10 +48,9 @@
   }
   
   
-  h3 {
-    margin: auto;
-    font-size: 3.5rem;
-    font-weight: 300;
+  h3 {       margin-right: auto;
+    margin-left: auto; 
+    
     animation: lights 5s 750ms linear infinite;
   }
 
@@ -318,20 +317,15 @@ body {
         color: #F23580; /* Change this to the desired color */
     }
     .hero-container img {
-        box-shadow: -1px 32px 59px #00bFF0;
-        margin-top: 23%;
+    
+     
         width: 100%;
     }
-.h3 {       
-        margin-top: -100px;
-        margin-top: -200px;   
-        font-size: 1.8rem;
-        font-weight: 100;
-        animation: lights 5s 650ms linear infinite;
-}
+
+
    
 
-     .row {padding: 6%;
+     .row {
         margin-right: 0px;
         margin-left: 0px;
         display: -ms-flexbox;
@@ -355,24 +349,13 @@ img {
     width: 80%;
 }
 
-.hero-container {
+.hero-container {margin-top: 30%;
     position: relative; /* Make the container relative for positioning */
     width: 100%; /* Ensure the image takes up full width (adjust as needed) */
 }
 
-.hero-container img {
-    width: 100%;  /* Make the image fill the container's width */
-}
 
-.animated-text {
-    position: absolute; /* Absolutely position the text */
-    top: 50%;         /* Center vertically (adjust as needed) */
-    left: 50%;        /* Center horizontally (adjust as needed) */
-    transform: translate(-50%, -50%);  /* Precise centering within container */
-    font-size: 40px;
-    font-family: sans-serif; 
-    color: white; /* Make the text visible against the image */
-}
+
 
 .col-md-12 {
     border-radius: 16px;
@@ -741,17 +724,10 @@ body {
  @media  (min-width:576px)   {
     
     .hero-container img {
-        margin-top: 70px;
+  
         width: 100%;
     }
-    .h3 {
-       
-            font-size: 2rem;
-            margin-top: -247px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    
+
     .jumbotron-content img {
         padding-top: 18%;
         box-shadow: -1px 32px 59px #00bFF0;

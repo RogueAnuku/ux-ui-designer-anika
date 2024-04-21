@@ -1,5 +1,59 @@
 
-
+@keyframes lights {
+    0% {
+      color: hsl(230, 40%, 20%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+    30% { 
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    40% { 
+      color: hsl(230, 100%, 95%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 90%, 0.5),
+        -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+        0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    70% {
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    100% {
+      color: hsl(230, 40%, 80%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+  }
+  
+  
+  h3 {
+    margin: auto;
+    font-size: 3.5rem;
+    font-weight: 300;
+    animation: lights 5s 750ms linear infinite;
+  }
 
 :root {
 	--red: hsl(0, 100%, 80%);
@@ -199,6 +253,7 @@ body {
 	100.0% { --angleFX: 360deg; background: conic-gradient( from var(--angleFX) at 50% 50%, var(--red), var(--yellow), var(--green), var(--blue), var(--purple), var(--pink), var(--red) ); }
 }
 
+
 @media  (min-width: 320px)  {
     body {
         padding: 0;
@@ -221,7 +276,7 @@ body {
         min-height: 100%;
         position: relative;
     }
-    body, h1, h2, h3, p, div {
+    body, h1, h2,  p, div {
         margin: 0;
         padding: 0;
     }
@@ -262,7 +317,18 @@ body {
      .navbar-dark .navbar-nav .nav-item.active .nav-link {
         color: #F23580; /* Change this to the desired color */
     }
-
+    .hero-container img {
+        box-shadow: -1px 32px 59px #00bFF0;
+        margin-top: 23%;
+        width: 100%;
+    }
+.h3 {       
+        margin-top: -100px;
+        margin-top: -200px;   
+        font-size: 1.8rem;
+        font-weight: 100;
+        animation: lights 5s 650ms linear infinite;
+}
    
 
      .row {padding: 6%;
@@ -325,13 +391,6 @@ img {
             font-size: 2.6rem;
             font-weight: 500;
             text-align: center;
-        }
-        .h2, h2 {
-            font-weight: 400;
-            font-family: cinzel;
-            text-align: center;
-            font-size: 1.4rem;
-            color: #F23580;
         }
       
          .resume-title {
@@ -681,18 +740,24 @@ body {
  
  @media  (min-width:576px)   {
     
- 
+    .hero-container img {
+        margin-top: 70px;
+        width: 100%;
+    }
+    .h3 {
+       
+            font-size: 2rem;
+            margin-top: -247px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
     .jumbotron-content img {
         padding-top: 18%;
         box-shadow: -1px 32px 59px #00bFF0;
     }
 
-.h2, h2 {
-    font-family: cinzel;
-    text-align: center;
-    font-size: 2rem;
-    color: #F23580;
-}
+
 
 
    
@@ -767,12 +832,7 @@ body {
         .col-md-6 {
             width: 50%;
         }
-        .h2, h2 {
-            font-family: cinzel;
-            text-align: center;
-            font-size: 2rem;
-            color: #F23580;
-        }
+    
         .col-md-8 img {
             margin-top: 6%;
         }
@@ -943,13 +1003,7 @@ color: white;
             font-weight: 500;
             text-align: center;
         }
-        .h2, h2 {
-            
-            font-family: cinzel;
-            text-align: center;
-            font-size: 3rem;
-            color: #F23580;
-        }
+     
 
         .col-md-8 img{
             margin-top: 6%;
@@ -1050,12 +1104,7 @@ color: white;
                     font-weight: 500;
                     text-align: center;
                 }
-                .h2, h2 {
-                    font-family: cinzel;
-                    text-align: center;
-                    font-size: 3.3rem;
-                    color: #F23580;
-                }
+              
                 .border-image {
                     margin-top: -154px;
                     width: 100%;

@@ -324,7 +324,7 @@ body {
     .row.hero-container p {
         font-weight: 100;
         text-align: center;
-        font-size: 3rem;
+        font-size: 2rem;
         color: white;
     }
 
@@ -341,6 +341,12 @@ body {
 
 .img-1 {
     z-index: 4;
+}
+.img\.2 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    margin-top: -26px;
 }
 
 img {
@@ -364,9 +370,11 @@ img {
 .col-md-12 {
     border-radius: 16px;
   
-        padding: 4%;
         margin-right: auto;
         margin-left: auto;
+    }
+    .img\.2 {
+        margin-top: -40px;
     }
 
         .h1, h1 {
@@ -727,7 +735,7 @@ body {
  
  @media  (min-width:576px)   {
     .hero-container {
-        margin-top: 14%;
+        margin-top: 18%;
         position: relative;
         width: 100%;
     }
@@ -737,21 +745,8 @@ body {
         width: 100%;
     }
 
-    .jumbotron-content img {
-        padding-top: 18%;
-        box-shadow: -1px 32px 59px #00bFF0;
-    }
-
-
-
 
    
-      
-        .project-text video {
-            margin-top: 2%;
-            /* width: 100%; */
-            margin-left: 0%;
-        }
      
         .resume-title {
           color: #F23580;
@@ -791,6 +786,9 @@ body {
         .hero-container img {
             margin-top: -135px;
             width: 100%;
+        }
+        .h3,h3 {
+            font-size: 3rem;
         }
         .img-1 {
             margin-top: -89px;
@@ -848,7 +846,7 @@ body {
           
           
         .hero-container {
-            margin-top: 12%;
+            margin-top: 6%;
             position: relative;
             width: 100%;
         } 
@@ -859,7 +857,7 @@ body {
         }
 .h3, h3 {
     font-weight: 300;
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 .gem-section {
@@ -952,7 +950,9 @@ body {
         margin-top: -45px}
         
        
-     
+        .hero-container img {
+            margin-top: -327px;
+        }
       
         .h1, h1 {
        
@@ -963,7 +963,12 @@ body {
             font-weight: 500;
             text-align: center;
         }
-     
+        .img\.2 {
+            margin-right: auto;
+            margin-left: auto;
+            width: 76%;
+            margin-top: -98px;
+        }
 
         .col-md-8 img{
             margin-top: 6%;

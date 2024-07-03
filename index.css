@@ -342,12 +342,10 @@ body {
 .img-1 {
     z-index: 4;
 }
-.img\.2 {
-    margin-right: auto;
-    margin-left: auto;
-    width: 90%;
-    margin-top: -26px;
+.img1flat {
+    margin-top: -80px;
 }
+
 
 img {
     max-width: 100%; /* Ensure the image doesn't exceed its container width */
@@ -373,9 +371,7 @@ img {
         margin-right: auto;
         margin-left: auto;
     }
-    .img\.2 {
-        margin-top: -40px;
-    }
+   
 
         .h1, h1 {
           
@@ -730,12 +726,18 @@ body {
     font-size: 12px;
   
 }
-
 }
+@media (min-width:430px) {
+    .img1flat {
+        margin-top: -146px;
+    }
+    
+}
+
  
  @media  (min-width:576px)   {
     .hero-container {
-        margin-top: 18%;
+        margin-top: 16%;
         position: relative;
         width: 100%;
     }
@@ -774,6 +776,11 @@ body {
         color: white;
     }
    .col-md-6 {max-width: 50%;}
+   .img1flat {
+    margin-top: -212px;
+}
+
+   
    
     
 
@@ -783,6 +790,11 @@ body {
     
      @media (min-width:768px)  {
       
+        .hero-container {
+            margin-top: 10%;
+            position: relative;
+            width: 100%;
+        }
         .hero-container img {
             margin-top: -135px;
             width: 100%;
@@ -817,6 +829,10 @@ body {
             /* padding: 40px; */
             color: white;
         }
+        .img1flat {
+            margin-top: -288px;
+        }
+        
         
             }
         
@@ -846,7 +862,7 @@ body {
           
           
         .hero-container {
-            margin-top: 6%;
+            margin-top: 14%;
             position: relative;
             width: 100%;
         } 
@@ -885,6 +901,10 @@ body {
         /* margin-top: 2%; */
         z-index: 4;
     }
+    .img1flat {
+        margin-top: -358px;
+    }
+   
     .about-img {
    
         margin-right: auto;
@@ -947,7 +967,7 @@ body {
       
     .img-1 {
         z-index: 4;
-        margin-top: -45px}
+        margin-top: -466px;}
         
        
         .hero-container img {
@@ -963,12 +983,7 @@ body {
             font-weight: 500;
             text-align: center;
         }
-        .img\.2 {
-            margin-right: auto;
-            margin-left: auto;
-            width: 76%;
-            margin-top: -98px;
-        }
+      
 
         .col-md-8 img{
             margin-top: 6%;
@@ -1032,69 +1047,7 @@ body {
                 
                
           }
-          @media  (min-width:2050px) {
-            .row {
-                 margin-right: 0px; 
-                 margin-left: 0px; 
-                display: -ms-flexbox;
-                display: flex;
-                -ms-flex-wrap: wrap;
-                /* flex-wrap: wrap; */
-                justify-content: center;
-            }
-            .jumbotron-overlay {
-                width: 100%;
-                position: absolute;
-                /* left: 50%; */
-                transform: translate(0%, 30%);
-                text-align: center;
-                color: white;
-                /* background-color: rgba(0, 0, 0, 0.5); */
-                padding: 20px;
-            }
-              
         
-            .img-1 {
-                z-index: 4;
-                margin-top: -234px;
-            }
-         
-                .h1, h1 {
-                  
-                    /* padding: 54%; */
-                    margin-left: auto;
-                    margin-right: auto;
-                    color: #F23580;
-                    font-size: 4rem;
-                    font-weight: 500;
-                    text-align: center;
-                }
-              
-                .border-image {
-                    margin-top: -154px;
-                    width: 100%;
-                    /* height: 63%; */
-                }
-                .btn {
-                    margin-top: 18%;
-                    color: #fff;
-                    background-color: #f23580;
-                    border-color: transparent;
-                    border: 1px solid transparent;
-                    padding: 0.375rem .75rem;
-                    font-size: 1.8rem;
-                    line-height: 1.;
-                    border-radius: 5.25rem;
-                    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-                }
-            
-                #contact form {
-                    /* max-width: 600px; */
-                    margin: 0 auto;
-                }
-
-
-        }
                 
            
           

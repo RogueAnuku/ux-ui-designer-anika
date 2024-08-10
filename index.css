@@ -835,7 +835,24 @@ body {
         
         
             }
-        
+        /* ... (Your existing styles in index.css) ... */
+
+@media (max-width: 991px) {  /* Target screens smaller than 992px */
+  .navbar-collapse {
+    display: flex !important;
+  }
+
+  .navbar { /* Remove default Bootstrap margin and padding */
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-nav { /* Adjust nav item spacing */
+    width: 100%; 
+    justify-content: space-around; 
+  }
+}
+
         
 
     @media  (min-width:992px)  {

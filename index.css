@@ -278,13 +278,7 @@ body {
         position: relative;
     }
   
-    
-    .menu-icon-img img {
-        width: 46px;
-    }
-   
-     .menu-icon-img {   width: 38px}
-    
+       
     
      .navbar {
    
@@ -294,11 +288,9 @@ body {
     left: 0;
     z-index: 1030;
      }
-     .navbar-name {
-        /* font-family: cinzel; */
-       
-        color: #F23580;
-    }
+     .menu-icon-img {
+      width: 48px;
+     }
      .navbar-dark .navbar-toggler {
     color: rgba(255,255,255,.5);
     border-color: #000;/* border-color: rgba(255,255,255,.1); */
@@ -315,36 +307,24 @@ body {
      .navbar-dark .navbar-nav .nav-item.active .nav-link {
         color: #F23580; /* Change this to the desired color */
     }
-    .hero-container img {
-    
+    .hero-container img {  
      
-        width: 100%;
-    }
+       width: 100%;
+    } 
 
-    .row.hero-container p {
-        font-weight: 100;
-        text-align: center;
-        font-size: 2rem;
-        color: white;
-    }
+    
 
-     .row {
-        margin-right: 0px;
-        margin-left: 0px;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
+    
+      .row {
+          margin-right: 0px;
+          margin-left: 0px;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+       
+      }
 
-
-.img-1 {
-    z-index: 4;
-}
-.img1flat {
-    margin-top: -80px;
-}
 
 
 img {
@@ -392,10 +372,7 @@ img {
        
     }
 
-    .resume  {
-        margin-left: auto;
-        margin-right: auto;
-    }
+  
     .resume button {
         border-radius: 16px;
       
@@ -673,11 +650,11 @@ body {
   
 
 .footer {
-    position: absolute;
+   
     width: 100%;
     background-color: black;
     color: #F23580;
-    padding: 2%;
+    padding: 4%;
     display: flex;
     justify-content: space-between;
     margin: 0;
@@ -713,14 +690,7 @@ body {
   
 }
 }
-@media (min-width:430px) {
-    .img1flat {
-        margin-top: -146px;
-    }
-    
-}
 
- 
  @media  (min-width:576px)   {
     .hero-container {
         margin-top: 16%;
@@ -753,9 +723,7 @@ body {
         color: white;
     }
  
-   .img1flat {
-    margin-top: -212px;
-}
+   
 
    
    
@@ -768,7 +736,7 @@ body {
      @media (min-width:768px)  {
       
         .hero-container {
-            margin-top: 10%;
+       
             position: relative;
             width: 100%;
         }
@@ -804,9 +772,7 @@ body {
             /* padding: 40px; */
             color: white;
         }
-        .img1flat {
-            margin-top: -288px;
-        }
+        
         
         .col-md-6 {max-width: 100%;}
             }
@@ -815,22 +781,7 @@ body {
         }
         /* ... (Your existing styles in index.css) ... */
 
-@media (max-width: 991px) {  /* Target screens smaller than 992px */
-  .navbar-collapse {
-    display: flex !important;
-  }
 
-  .navbar { /* Remove default Bootstrap margin and padding */
-    margin: 0;
-    padding: 0;
-  }
-
-  .navbar-nav { /* Adjust nav item spacing */
-    width: 100%; 
-    justify-content: space-around; 
-  }
- 
-}
 
         
 
@@ -898,9 +849,7 @@ body {
         /* margin-top: 2%; */
         z-index: 4;
     }
-    .img1flat {
-        margin-top: -358px;
-    }
+   
    
 
     .col-md-6.about-me-col {
@@ -947,16 +896,9 @@ body {
     margin-top: 80px;
     padding: 0%;
   }
-  .img1flat {
-    margin-top: 396px;}
-  .img1flat img {
-    margin-top: -900px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-
-    
-  }
+  
+  
+  
 
   
 }

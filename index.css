@@ -654,7 +654,7 @@ body {
     width: 100%;
     background-color: black;
     color: #F23580;
-    padding: 4%;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     margin: 0;
